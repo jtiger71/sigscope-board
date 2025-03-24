@@ -1,0 +1,22 @@
+CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\segger-rtt\SEGGER_RTT_printf.c.obj: \
+ D:\project\pico\pico-sdk\lib\btstack\3rd-party\segger-rtt\SEGGER_RTT_printf.c \
+ D:\project\pico\pico-sdk\lib\btstack\3rd-party\segger-rtt\SEGGER_RTT.h \
+ D:\project\pico\pico-sdk\lib\btstack\3rd-party\segger-rtt\SEGGER_RTT_Conf.h \
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/stdlib.h \
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/machine/ieeefp.h \
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/_ansi.h \
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/newlib.h \
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/_newlib_version.h \
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/sys/config.h \
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/sys/features.h \
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/sys/reent.h \
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/_ansi.h \
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/sys/cdefs.h \
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/machine/_default_types.h \
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/sys/_types.h \
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/machine/_types.h \
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/sys/lock.h \
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/machine/stdlib.h \
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/alloca.h \
+ C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h
