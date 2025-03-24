@@ -49,7 +49,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = D:\project\pico\pico-sdk\tools\elf2uf2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\project\pico\sigscope\board\build\elf2uf2
+CMAKE_BINARY_DIR = D:\project\pico\sigscope\sigscope-board\build\elf2uf2
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -76,18 +76,18 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd D:\project\pico\sigscope\board\build\elf2uf2
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\project\pico\sigscope\board\build\elf2uf2\CMakeFiles D:\project\pico\sigscope\board\build\elf2uf2\boot_uf2_headers\\CMakeFiles\progress.marks
+	cd D:\project\pico\sigscope\sigscope-board\build\elf2uf2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\project\pico\sigscope\sigscope-board\build\elf2uf2\CMakeFiles D:\project\pico\sigscope\sigscope-board\build\elf2uf2\boot_uf2_headers\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) boot_uf2_headers\all
-	cd D:\project\pico\sigscope\board\build\elf2uf2\boot_uf2_headers
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\project\pico\sigscope\board\build\elf2uf2\CMakeFiles 0
+	cd D:\project\pico\sigscope\sigscope-board\build\elf2uf2\boot_uf2_headers
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\project\pico\sigscope\sigscope-board\build\elf2uf2\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd D:\project\pico\sigscope\board\build\elf2uf2
+	cd D:\project\pico\sigscope\sigscope-board\build\elf2uf2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) boot_uf2_headers\clean
-	cd D:\project\pico\sigscope\board\build\elf2uf2\boot_uf2_headers
+	cd D:\project\pico\sigscope\sigscope-board\build\elf2uf2\boot_uf2_headers
 .PHONY : clean
 
 # The main clean target
@@ -96,23 +96,23 @@ clean\fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd D:\project\pico\sigscope\board\build\elf2uf2
+	cd D:\project\pico\sigscope\sigscope-board\build\elf2uf2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) boot_uf2_headers\preinstall
-	cd D:\project\pico\sigscope\board\build\elf2uf2\boot_uf2_headers
+	cd D:\project\pico\sigscope\sigscope-board\build\elf2uf2\boot_uf2_headers
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall\fast:
-	cd D:\project\pico\sigscope\board\build\elf2uf2
+	cd D:\project\pico\sigscope\sigscope-board\build\elf2uf2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) boot_uf2_headers\preinstall
-	cd D:\project\pico\sigscope\board\build\elf2uf2\boot_uf2_headers
+	cd D:\project\pico\sigscope\sigscope-board\build\elf2uf2\boot_uf2_headers
 .PHONY : preinstall\fast
 
 # clear depends
 depend:
-	cd D:\project\pico\sigscope\board\build\elf2uf2
+	cd D:\project\pico\sigscope\sigscope-board\build\elf2uf2
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
-	cd D:\project\pico\sigscope\board\build\elf2uf2\boot_uf2_headers
+	cd D:\project\pico\sigscope\sigscope-board\build\elf2uf2\boot_uf2_headers
 .PHONY : depend
 
 # Help Target
@@ -134,8 +134,8 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd D:\project\pico\sigscope\board\build\elf2uf2
+	cd D:\project\pico\sigscope\sigscope-board\build\elf2uf2
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
-	cd D:\project\pico\sigscope\board\build\elf2uf2\boot_uf2_headers
+	cd D:\project\pico\sigscope\sigscope-board\build\elf2uf2\boot_uf2_headers
 .PHONY : cmake_check_build_system
 

@@ -1,6 +1,7 @@
-CMakeFiles\sigscope.dir\main.c.obj: D:\project\pico\sigscope\board\main.c \
+CMakeFiles\sigscope.dir\main.c.obj: \
+ D:\project\pico\sigscope\sigscope-board\main.c \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_run_loop.h \
- D:\project\pico\sigscope\board/btstack_config.h \
+ D:\project\pico\sigscope\sigscope-board/btstack_config.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_bool.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_linked_list.h \
@@ -22,9 +23,9 @@ CMakeFiles\sigscope.dir\main.c.obj: D:\project\pico\sigscope\board\main.c \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/sys/config.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/machine/ieeefp.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
- D:\project\pico\sigscope\board\build\generated\pico_base/pico/version.h \
+ D:\project\pico\sigscope\sigscope-board\build\generated\pico_base/pico/version.h \
  D:\project\pico\pico-sdk\src\common\pico_base\include/pico/config.h \
- D:\project\pico\sigscope\board\build\generated\pico_base/pico/config_autogen.h \
+ D:\project\pico\sigscope\sigscope-board\build\generated\pico_base/pico/config_autogen.h \
  D:/project/pico/pico-sdk/src/boards/include/boards/pico_w.h \
  D:/project/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  D:\project\pico\pico-sdk\src\rp2_common\pico_platform\include/pico/platform.h \
@@ -55,5 +56,5 @@ CMakeFiles\sigscope.dir\main.c.obj: D:\project\pico\sigscope\board\main.c \
  D:\project\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/uart.h \
  D:\project\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/dreq.h \
  D:\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\include/pico/stdio_usb.h \
- D:\project\pico\sigscope\board\ble/picow_bt_base.h \
- D:\project\pico\sigscope\board\adc_dma/adc_fft.h
+ D:\project\pico\sigscope\sigscope-board\ble/picow_bt_base.h \
+ D:\project\pico\sigscope\sigscope-board\adc_dma/adc_fft.h

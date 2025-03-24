@@ -1,5 +1,5 @@
 CMakeFiles\sigscope.dir\ble\picow_bt_if.c.obj: \
- D:\project\pico\sigscope\board\ble\picow_bt_if.c \
+ D:\project\pico\sigscope\sigscope-board\ble\picow_bt_if.c \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/stdint.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/machine/_default_types.h \
@@ -30,7 +30,7 @@ CMakeFiles\sigscope.dir\ble\picow_bt_if.c.obj: \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/sys/string.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/inttypes.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack.h \
- D:\project\pico\sigscope\board/btstack_config.h \
+ D:\project\pico\sigscope\sigscope-board/btstack_config.h \
  D:\project\pico\pico-sdk\lib\btstack\src/ad_parser.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_bool.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
@@ -163,5 +163,5 @@ CMakeFiles\sigscope.dir\ble\picow_bt_if.c.obj: \
  D:\project\pico\pico-sdk\lib\btstack\src/le-audio/gatt-service/broadcast_audio_scan_service_util.h \
  D:\project\pico\pico-sdk\lib\btstack\src/le-audio/gatt-service/broadcast_audio_scan_service_server.h \
  D:\project\pico\pico-sdk\lib\btstack\src/le-audio/gatt-service/broadcast_audio_scan_service_util.h \
- D:\project\pico\sigscope\board\ble\picow_bt_if.h \
- D:/project/pico/sigscope/board/adc_dma/adc_fft.h
+ D:\project\pico\sigscope\sigscope-board\ble\picow_bt_if.h \
+ D:/project/pico/sigscope/sigscope-board/adc_dma/adc_fft.h

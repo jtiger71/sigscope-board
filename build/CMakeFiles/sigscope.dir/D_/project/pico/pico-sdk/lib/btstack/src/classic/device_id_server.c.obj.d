@@ -25,7 +25,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\device_
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/sys/string.h \
  D:\project\pico\pico-sdk\lib\btstack\src/bluetooth.h \
  D:\project\pico\pico-sdk\lib\btstack\src/bluetooth_sdp.h \
- D:\project\pico\sigscope\board/btstack_config.h \
+ D:\project\pico\sigscope\sigscope-board/btstack_config.h \
  D:\project\pico\pico-sdk\lib\btstack\src/classic/core.h \
  D:\project\pico\pico-sdk\lib\btstack\src/classic/sdp_util.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_bool.h \

@@ -1,7 +1,7 @@
 CMakeFiles\sigscope.dir\adc_dma\kiss_fft.c.obj: \
- D:\project\pico\sigscope\board\adc_dma\kiss_fft.c \
- D:\project\pico\sigscope\board\adc_dma\_kiss_fft_guts.h \
- D:\project\pico\sigscope\board\adc_dma\kiss_fft.h \
+ D:\project\pico\sigscope\sigscope-board\adc_dma\kiss_fft.c \
+ D:\project\pico\sigscope\sigscope-board\adc_dma\_kiss_fft_guts.h \
+ D:\project\pico\sigscope\sigscope-board\adc_dma\kiss_fft.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/stdlib.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/machine/ieeefp.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/_ansi.h \

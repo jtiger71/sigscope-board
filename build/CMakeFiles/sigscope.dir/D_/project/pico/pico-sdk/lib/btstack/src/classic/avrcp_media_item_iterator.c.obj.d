@@ -23,7 +23,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_m
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/strings.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/sys/string.h \
  D:\project\pico\pico-sdk\lib\btstack\src/classic/avrcp_media_item_iterator.h \
- D:\project\pico\sigscope\board/btstack_config.h \
+ D:\project\pico\sigscope\sigscope-board/btstack_config.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_util.h \
  D:\project\pico\pico-sdk\lib\btstack\src/bluetooth.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_defines.h \

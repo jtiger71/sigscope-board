@@ -9,7 +9,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\mesh\gatt-servi
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/sys/_intsup.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/sys/_stdint.h \
  D:\project\pico\pico-sdk\lib\btstack\src/hci.h \
- D:\project\pico\sigscope\board/btstack_config.h \
+ D:\project\pico\sigscope\sigscope-board/btstack_config.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_chipset.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_util.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/string.h \

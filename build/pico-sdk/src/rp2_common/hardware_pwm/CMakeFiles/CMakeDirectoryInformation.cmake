@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "D:/project/pico/pico-sdk")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "D:/project/pico/sigscope/board/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "D:/project/pico/sigscope/sigscope-board/build")
 
 
 # The C and CXX include file regular expressions for this directory.

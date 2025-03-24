@@ -1,6 +1,6 @@
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_client.c.obj: \
  D:\project\pico\pico-sdk\lib\btstack\src\classic\sdp_client.c \
- D:\project\pico\sigscope\board/btstack_config.h \
+ D:\project\pico\sigscope\sigscope-board/btstack_config.h \
  D:\project\pico\pico-sdk\lib\btstack\src/bluetooth_psm.h \
  D:\project\pico\pico-sdk\lib\btstack\src/bluetooth_sdp.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_debug.h \

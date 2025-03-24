@@ -7,7 +7,7 @@ events:
       - "D:/ProgramFiles/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      The system is: Windows - 10.0.22631 - AMD64
+      The system is: Windows - 10.0.26100 - AMD64
   -
     kind: "message-v1"
     backtrace:
@@ -17,13 +17,13 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx86/x64/cl.exe 
+      Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.39.33519/bin/Hostx86/x86/cl.exe 
       Build flags: 
       Id flags:  
       
       The output was:
       0
-      Microsoft (R) C/C++ 최적화 컴파일러 버전 19.39.33522(x64)
+      x86용 Microsoft (R) C/C++ 최적화 컴파일러 버전 19.39.33522
       Copyright (c) Microsoft Corporation. All rights reserved.
       
       CMakeCCompilerId.c
@@ -39,7 +39,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
       
       The C compiler identification is MSVC, found in:
-        D:/project/pico/sigscope/board/build/elf2uf2/CMakeFiles/3.29.0-rc4/CompilerIdC/CMakeCCompilerId.exe
+        D:/project/pico/sigscope/sigscope-board/build/elf2uf2/CMakeFiles/3.29.0-rc4/CompilerIdC/CMakeCCompilerId.exe
       
   -
     kind: "message-v1"
@@ -51,7 +51,7 @@ events:
     message: |
       Detecting C compiler /showIncludes prefix:
         main.c
-        참고: 포함 파일: D:\\project\\pico\\sigscope\\board\\build\\elf2uf2\\CMakeFiles\\ShowIncludes\\foo.h
+        참고: 포함 파일: D:\\project\\pico\\sigscope\\sigscope-board\\build\\elf2uf2\\CMakeFiles\\ShowIncludes\\foo.h
         
       Found prefix "참고: 포함 파일: "
   -
@@ -63,13 +63,13 @@ events:
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/Hostx86/x64/cl.exe 
+      Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.39.33519/bin/Hostx86/x86/cl.exe 
       Build flags: 
       Id flags:  
       
       The output was:
       0
-      Microsoft (R) C/C++ 최적화 컴파일러 버전 19.39.33522(x64)
+      x86용 Microsoft (R) C/C++ 최적화 컴파일러 버전 19.39.33522
       Copyright (c) Microsoft Corporation. All rights reserved.
       
       CMakeCXXCompilerId.cpp
@@ -85,7 +85,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
       
       The CXX compiler identification is MSVC, found in:
-        D:/project/pico/sigscope/board/build/elf2uf2/CMakeFiles/3.29.0-rc4/CompilerIdCXX/CMakeCXXCompilerId.exe
+        D:/project/pico/sigscope/sigscope-board/build/elf2uf2/CMakeFiles/3.29.0-rc4/CompilerIdCXX/CMakeCXXCompilerId.exe
       
   -
     kind: "message-v1"
@@ -97,7 +97,7 @@ events:
     message: |
       Detecting CXX compiler /showIncludes prefix:
         main.c
-        참고: 포함 파일: D:\\project\\pico\\sigscope\\board\\build\\elf2uf2\\CMakeFiles\\ShowIncludes\\foo.h
+        참고: 포함 파일: D:\\project\\pico\\sigscope\\sigscope-board\\build\\elf2uf2\\CMakeFiles\\ShowIncludes\\foo.h
         
       Found prefix "참고: 포함 파일: "
   -
@@ -109,38 +109,38 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/project/pico/sigscope/board/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-nj2j28"
-      binary: "D:/project/pico/sigscope/board/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-nj2j28"
+      source: "D:/project/pico/sigscope/sigscope-board/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-r45awf"
+      binary: "D:/project/pico/sigscope/sigscope-board/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-r45awf"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/project/pico/sigscope/board/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-nj2j28'
+        Change Dir: 'D:/project/pico/sigscope/sigscope-board/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-r45awf'
         
-        Run Build Command(s): D:/ProgramFiles/CMake/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_df66a\\fast
-        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX86\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_df66a.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_df66a.dir\\build
-        Building C object CMakeFiles/cmTC_df66a.dir/CMakeCCompilerABI.c.obj
-        	D:\\ProgramFiles\\CMake\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_df66a.dir\\CMakeCCompilerABI.c.obj.d --working-dir=D:\\project\\pico\\sigscope\\board\\build\\elf2uf2\\CMakeFiles\\CMakeScratch\\TryCompile-nj2j28 --filter-prefix="참고: 포함 파일: " -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx86\\x64\\cl.exe @C:\\Users\\versi\\AppData\\Local\\Temp\\nm6E2D.tmp
+        Run Build Command(s): D:/ProgramFiles/CMake/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_6b7f0\\fast
+        	"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\cmTC_6b7f0.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_6b7f0.dir\\build
+        Building C object CMakeFiles/cmTC_6b7f0.dir/CMakeCCompilerABI.c.obj
+        	D:\\ProgramFiles\\CMake\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_6b7f0.dir\\CMakeCCompilerABI.c.obj.d --working-dir=D:\\project\\pico\\sigscope\\sigscope-board\\build\\elf2uf2\\CMakeFiles\\CMakeScratch\\TryCompile-r45awf --filter-prefix="참고: 포함 파일: " -- C:\\PROGRA~2\\MICROS~3\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx86\\x86\\cl.exe @C:\\Users\\versi\\AppData\\Local\\Temp\\nm2D75.tmp
         CMakeCCompilerABI.c
-        Linking C executable cmTC_df66a.exe
-        	D:\\ProgramFiles\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_df66a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx86\\x64\\link.exe /nologo @CMakeFiles\\cmTC_df66a.dir\\objects1.rsp @C:\\Users\\versi\\AppData\\Local\\Temp\\nm6FB5.tmp
+        Linking C executable cmTC_6b7f0.exe
+        	D:\\ProgramFiles\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_6b7f0.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\mt.exe --manifests -- C:\\PROGRA~2\\MICROS~3\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_6b7f0.dir\\objects1.rsp @C:\\Users\\versi\\AppData\\Local\\Temp\\nm2F0C.tmp
         Visual Studio Incremental Link with embedded manifests
-        Create CMakeFiles\\cmTC_df66a.dir/manifest.rc
-        Create empty: CMakeFiles\\cmTC_df66a.dir/embed.manifest
+        Create CMakeFiles\\cmTC_6b7f0.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_6b7f0.dir/embed.manifest
         RC Pass 1:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_df66a.dir/manifest.res CMakeFiles\\cmTC_df66a.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_6b7f0.dir/manifest.res CMakeFiles\\cmTC_6b7f0.dir/manifest.rc
         LINK Pass 1:
-        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx86\\x64\\link.exe /nologo @CMakeFiles\\cmTC_df66a.dir\\objects1.rsp /out:cmTC_df66a.exe /implib:cmTC_df66a.lib /pdb:D:\\project\\pico\\sigscope\\board\\build\\elf2uf2\\CMakeFiles\\CMakeScratch\\TryCompile-nj2j28\\cmTC_df66a.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_df66a.dir/intermediate.manifest CMakeFiles\\cmTC_df66a.dir/manifest.res
+        C:\\PROGRA~2\\MICROS~3\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_6b7f0.dir\\objects1.rsp /out:cmTC_6b7f0.exe /implib:cmTC_6b7f0.lib /pdb:D:\\project\\pico\\sigscope\\sigscope-board\\build\\elf2uf2\\CMakeFiles\\CMakeScratch\\TryCompile-r45awf\\cmTC_6b7f0.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_6b7f0.dir/intermediate.manifest CMakeFiles\\cmTC_6b7f0.dir/manifest.res
         MT:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\mt.exe /nologo /manifest CMakeFiles\\cmTC_df66a.dir/intermediate.manifest /out:CMakeFiles\\cmTC_df66a.dir/embed.manifest /notify_update
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\mt.exe /nologo /manifest CMakeFiles\\cmTC_6b7f0.dir/intermediate.manifest /out:CMakeFiles\\cmTC_6b7f0.dir/embed.manifest /notify_update
         RC Pass 2:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_df66a.dir/manifest.res CMakeFiles\\cmTC_df66a.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_6b7f0.dir/manifest.res CMakeFiles\\cmTC_6b7f0.dir/manifest.rc
         FINAL LINK:
-        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx86\\x64\\link.exe /nologo @CMakeFiles\\cmTC_df66a.dir\\objects1.rsp /out:cmTC_df66a.exe /implib:cmTC_df66a.lib /pdb:D:\\project\\pico\\sigscope\\board\\build\\elf2uf2\\CMakeFiles\\CMakeScratch\\TryCompile-nj2j28\\cmTC_df66a.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_df66a.dir/intermediate.manifest CMakeFiles\\cmTC_df66a.dir/manifest.res
+        C:\\PROGRA~2\\MICROS~3\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_6b7f0.dir\\objects1.rsp /out:cmTC_6b7f0.exe /implib:cmTC_6b7f0.lib /pdb:D:\\project\\pico\\sigscope\\sigscope-board\\build\\elf2uf2\\CMakeFiles\\CMakeScratch\\TryCompile-r45awf\\cmTC_6b7f0.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_6b7f0.dir/intermediate.manifest CMakeFiles\\cmTC_6b7f0.dir/manifest.res
         
       exitCode: 0
   -
@@ -153,7 +153,7 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'C': C:/PROGRA~1/MICROS~3/2022/COMMUN~1/VC/Tools/MSVC/1439~1.335/bin/Hostx86/x64/link.exe
+        linker tool for 'C': C:/PROGRA~2/MICROS~3/2022/BUILDT~1/VC/Tools/MSVC/1439~1.335/bin/Hostx86/x86/link.exe
         implicit libs: []
         implicit objs: []
         implicit dirs: []
@@ -168,7 +168,7 @@ events:
       - "D:/ProgramFiles/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      Running the C compiler's linker: "C:/PROGRA~1/MICROS~3/2022/COMMUN~1/VC/Tools/MSVC/1439~1.335/bin/Hostx86/x64/link.exe" "-v"
+      Running the C compiler's linker: "C:/PROGRA~2/MICROS~3/2022/BUILDT~1/VC/Tools/MSVC/1439~1.335/bin/Hostx86/x86/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.39.33522.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
   -
@@ -180,38 +180,38 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/project/pico/sigscope/board/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-0s88ec"
-      binary: "D:/project/pico/sigscope/board/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-0s88ec"
+      source: "D:/project/pico/sigscope/sigscope-board/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-e6lyeb"
+      binary: "D:/project/pico/sigscope/sigscope-board/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-e6lyeb"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/project/pico/sigscope/board/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-0s88ec'
+        Change Dir: 'D:/project/pico/sigscope/sigscope-board/build/elf2uf2/CMakeFiles/CMakeScratch/TryCompile-e6lyeb'
         
-        Run Build Command(s): D:/ProgramFiles/CMake/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_41f22\\fast
-        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX86\\x64\\nmake.exe"  -f CMakeFiles\\cmTC_41f22.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_41f22.dir\\build
-        Building CXX object CMakeFiles/cmTC_41f22.dir/CMakeCXXCompilerABI.cpp.obj
-        	D:\\ProgramFiles\\CMake\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_41f22.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir=D:\\project\\pico\\sigscope\\board\\build\\elf2uf2\\CMakeFiles\\CMakeScratch\\TryCompile-0s88ec --filter-prefix="참고: 포함 파일: " -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx86\\x64\\cl.exe @C:\\Users\\versi\\AppData\\Local\\Temp\\nm7264.tmp
+        Run Build Command(s): D:/ProgramFiles/CMake/bin/cmake.exe -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_c7d7f\\fast
+        	"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\cmTC_c7d7f.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_c7d7f.dir\\build
+        Building CXX object CMakeFiles/cmTC_c7d7f.dir/CMakeCXXCompilerABI.cpp.obj
+        	D:\\ProgramFiles\\CMake\\bin\\cmake.exe -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_c7d7f.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir=D:\\project\\pico\\sigscope\\sigscope-board\\build\\elf2uf2\\CMakeFiles\\CMakeScratch\\TryCompile-e6lyeb --filter-prefix="참고: 포함 파일: " -- C:\\PROGRA~2\\MICROS~3\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx86\\x86\\cl.exe @C:\\Users\\versi\\AppData\\Local\\Temp\\nm3218.tmp
         CMakeCXXCompilerABI.cpp
-        Linking CXX executable cmTC_41f22.exe
-        	D:\\ProgramFiles\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_41f22.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\mt.exe --manifests -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx86\\x64\\link.exe /nologo @CMakeFiles\\cmTC_41f22.dir\\objects1.rsp @C:\\Users\\versi\\AppData\\Local\\Temp\\nm72E2.tmp
+        Linking CXX executable cmTC_c7d7f.exe
+        	D:\\ProgramFiles\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_c7d7f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\mt.exe --manifests -- C:\\PROGRA~2\\MICROS~3\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_c7d7f.dir\\objects1.rsp @C:\\Users\\versi\\AppData\\Local\\Temp\\nm3296.tmp
         Visual Studio Incremental Link with embedded manifests
-        Create CMakeFiles\\cmTC_41f22.dir/manifest.rc
-        Create empty: CMakeFiles\\cmTC_41f22.dir/embed.manifest
+        Create CMakeFiles\\cmTC_c7d7f.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_c7d7f.dir/embed.manifest
         RC Pass 1:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_41f22.dir/manifest.res CMakeFiles\\cmTC_41f22.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_c7d7f.dir/manifest.res CMakeFiles\\cmTC_c7d7f.dir/manifest.rc
         LINK Pass 1:
-        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx86\\x64\\link.exe /nologo @CMakeFiles\\cmTC_41f22.dir\\objects1.rsp /out:cmTC_41f22.exe /implib:cmTC_41f22.lib /pdb:D:\\project\\pico\\sigscope\\board\\build\\elf2uf2\\CMakeFiles\\CMakeScratch\\TryCompile-0s88ec\\cmTC_41f22.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_41f22.dir/intermediate.manifest CMakeFiles\\cmTC_41f22.dir/manifest.res
+        C:\\PROGRA~2\\MICROS~3\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_c7d7f.dir\\objects1.rsp /out:cmTC_c7d7f.exe /implib:cmTC_c7d7f.lib /pdb:D:\\project\\pico\\sigscope\\sigscope-board\\build\\elf2uf2\\CMakeFiles\\CMakeScratch\\TryCompile-e6lyeb\\cmTC_c7d7f.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_c7d7f.dir/intermediate.manifest CMakeFiles\\cmTC_c7d7f.dir/manifest.res
         MT:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\mt.exe /nologo /manifest CMakeFiles\\cmTC_41f22.dir/intermediate.manifest /out:CMakeFiles\\cmTC_41f22.dir/embed.manifest /notify_update
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\mt.exe /nologo /manifest CMakeFiles\\cmTC_c7d7f.dir/intermediate.manifest /out:CMakeFiles\\cmTC_c7d7f.dir/embed.manifest /notify_update
         RC Pass 2:
-        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_41f22.dir/manifest.res CMakeFiles\\cmTC_41f22.dir/manifest.rc
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_c7d7f.dir/manifest.res CMakeFiles\\cmTC_c7d7f.dir/manifest.rc
         FINAL LINK:
-        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx86\\x64\\link.exe /nologo @CMakeFiles\\cmTC_41f22.dir\\objects1.rsp /out:cmTC_41f22.exe /implib:cmTC_41f22.lib /pdb:D:\\project\\pico\\sigscope\\board\\build\\elf2uf2\\CMakeFiles\\CMakeScratch\\TryCompile-0s88ec\\cmTC_41f22.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_41f22.dir/intermediate.manifest CMakeFiles\\cmTC_41f22.dir/manifest.res
+        C:\\PROGRA~2\\MICROS~3\\2022\\BUILDT~1\\VC\\Tools\\MSVC\\1439~1.335\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_c7d7f.dir\\objects1.rsp /out:cmTC_c7d7f.exe /implib:cmTC_c7d7f.lib /pdb:D:\\project\\pico\\sigscope\\sigscope-board\\build\\elf2uf2\\CMakeFiles\\CMakeScratch\\TryCompile-e6lyeb\\cmTC_c7d7f.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_c7d7f.dir/intermediate.manifest CMakeFiles\\cmTC_c7d7f.dir/manifest.res
         
       exitCode: 0
   -
@@ -224,7 +224,7 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'CXX': C:/PROGRA~1/MICROS~3/2022/COMMUN~1/VC/Tools/MSVC/1439~1.335/bin/Hostx86/x64/link.exe
+        linker tool for 'CXX': C:/PROGRA~2/MICROS~3/2022/BUILDT~1/VC/Tools/MSVC/1439~1.335/bin/Hostx86/x86/link.exe
         implicit libs: []
         implicit objs: []
         implicit dirs: []
@@ -239,7 +239,7 @@ events:
       - "D:/ProgramFiles/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      Running the CXX compiler's linker: "C:/PROGRA~1/MICROS~3/2022/COMMUN~1/VC/Tools/MSVC/1439~1.335/bin/Hostx86/x64/link.exe" "-v"
+      Running the CXX compiler's linker: "C:/PROGRA~2/MICROS~3/2022/BUILDT~1/VC/Tools/MSVC/1439~1.335/bin/Hostx86/x86/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.39.33522.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
 ...

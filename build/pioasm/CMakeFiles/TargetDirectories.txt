@@ -1,3 +1,3 @@
-D:/project/pico/sigscope/board/build/pioasm/CMakeFiles/pioasm.dir
-D:/project/pico/sigscope/board/build/pioasm/CMakeFiles/edit_cache.dir
-D:/project/pico/sigscope/board/build/pioasm/CMakeFiles/rebuild_cache.dir
+D:/project/pico/sigscope/sigscope-board/build/pioasm/CMakeFiles/pioasm.dir
+D:/project/pico/sigscope/sigscope-board/build/pioasm/CMakeFiles/edit_cache.dir
+D:/project/pico/sigscope/sigscope-board/build/pioasm/CMakeFiles/rebuild_cache.dir

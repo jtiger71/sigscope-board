@@ -31,7 +31,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-servic
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_linked_list.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_bool.h \
  D:\project\pico\pico-sdk\lib\btstack\src/ble/att_server.h \
- D:\project\pico\sigscope\board/btstack_config.h \
+ D:\project\pico\sigscope\sigscope-board/btstack_config.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_util.h \
  D:\project\pico\pico-sdk\lib\btstack\src/bluetooth.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_defines.h \

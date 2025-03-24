@@ -30,7 +30,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_dispatc
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_bool.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
  D:\project\pico\pico-sdk\lib\btstack\src/ble/core.h \
- D:\project\pico\sigscope\board/btstack_config.h \
+ D:\project\pico\sigscope\sigscope-board/btstack_config.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_debug.h \
  D:\project\pico\pico-sdk\lib\btstack\src/hci_dump.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \

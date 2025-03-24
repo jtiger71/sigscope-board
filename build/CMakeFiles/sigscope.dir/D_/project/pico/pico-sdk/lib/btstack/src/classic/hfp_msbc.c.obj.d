@@ -1,6 +1,6 @@
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_msbc.c.obj: \
  D:\project\pico\pico-sdk\lib\btstack\src\classic\hfp_msbc.c \
- D:\project\pico\sigscope\board/btstack_config.h \
+ D:\project\pico\sigscope\sigscope-board/btstack_config.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/string.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/_ansi.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/newlib.h \

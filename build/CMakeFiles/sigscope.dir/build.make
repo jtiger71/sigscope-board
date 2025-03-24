@@ -42,10 +42,10 @@ RM = D:\ProgramFiles\CMake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\project\pico\sigscope\board
+CMAKE_SOURCE_DIR = D:\project\pico\sigscope\sigscope-board
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\project\pico\sigscope\board\build
+CMAKE_BINARY_DIR = D:\project\pico\sigscope\sigscope-board\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles\sigscope.dir\depend.make
@@ -59,93 +59,93 @@ include CMakeFiles\sigscope.dir\progress.make
 include CMakeFiles\sigscope.dir\flags.make
 
 CMakeFiles\sigscope.dir\main.c.obj: CMakeFiles\sigscope.dir\flags.make
-CMakeFiles\sigscope.dir\main.c.obj: D:\project\pico\sigscope\board\main.c
+CMakeFiles\sigscope.dir\main.c.obj: D:\project\pico\sigscope\sigscope-board\main.c
 CMakeFiles\sigscope.dir\main.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/sigscope.dir/main.c.obj"
-	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\main.c.obj -MF CMakeFiles\sigscope.dir\main.c.obj.d -o CMakeFiles\sigscope.dir\main.c.obj -c D:\project\pico\sigscope\board\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/sigscope.dir/main.c.obj"
+	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\main.c.obj -MF CMakeFiles\sigscope.dir\main.c.obj.d -o CMakeFiles\sigscope.dir\main.c.obj -c D:\project\pico\sigscope\sigscope-board\main.c
 
 CMakeFiles\sigscope.dir\main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sigscope.dir/main.c.i"
-	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\project\pico\sigscope\board\main.c > CMakeFiles\sigscope.dir\main.c.i
+	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\project\pico\sigscope\sigscope-board\main.c > CMakeFiles\sigscope.dir\main.c.i
 
 CMakeFiles\sigscope.dir\main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sigscope.dir/main.c.s"
-	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\project\pico\sigscope\board\main.c -o CMakeFiles\sigscope.dir\main.c.s
+	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\project\pico\sigscope\sigscope-board\main.c -o CMakeFiles\sigscope.dir\main.c.s
 
 CMakeFiles\sigscope.dir\ble\picow_bt_base.c.obj: CMakeFiles\sigscope.dir\flags.make
-CMakeFiles\sigscope.dir\ble\picow_bt_base.c.obj: D:\project\pico\sigscope\board\ble\picow_bt_base.c
+CMakeFiles\sigscope.dir\ble\picow_bt_base.c.obj: D:\project\pico\sigscope\sigscope-board\ble\picow_bt_base.c
 CMakeFiles\sigscope.dir\ble\picow_bt_base.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/sigscope.dir/ble/picow_bt_base.c.obj"
-	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\ble\picow_bt_base.c.obj -MF CMakeFiles\sigscope.dir\ble\picow_bt_base.c.obj.d -o CMakeFiles\sigscope.dir\ble\picow_bt_base.c.obj -c D:\project\pico\sigscope\board\ble\picow_bt_base.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/sigscope.dir/ble/picow_bt_base.c.obj"
+	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\ble\picow_bt_base.c.obj -MF CMakeFiles\sigscope.dir\ble\picow_bt_base.c.obj.d -o CMakeFiles\sigscope.dir\ble\picow_bt_base.c.obj -c D:\project\pico\sigscope\sigscope-board\ble\picow_bt_base.c
 
 CMakeFiles\sigscope.dir\ble\picow_bt_base.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sigscope.dir/ble/picow_bt_base.c.i"
-	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\project\pico\sigscope\board\ble\picow_bt_base.c > CMakeFiles\sigscope.dir\ble\picow_bt_base.c.i
+	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\project\pico\sigscope\sigscope-board\ble\picow_bt_base.c > CMakeFiles\sigscope.dir\ble\picow_bt_base.c.i
 
 CMakeFiles\sigscope.dir\ble\picow_bt_base.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sigscope.dir/ble/picow_bt_base.c.s"
-	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\project\pico\sigscope\board\ble\picow_bt_base.c -o CMakeFiles\sigscope.dir\ble\picow_bt_base.c.s
+	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\project\pico\sigscope\sigscope-board\ble\picow_bt_base.c -o CMakeFiles\sigscope.dir\ble\picow_bt_base.c.s
 
 CMakeFiles\sigscope.dir\ble\picow_bt_if.c.obj: CMakeFiles\sigscope.dir\flags.make
-CMakeFiles\sigscope.dir\ble\picow_bt_if.c.obj: D:\project\pico\sigscope\board\ble\picow_bt_if.c
+CMakeFiles\sigscope.dir\ble\picow_bt_if.c.obj: D:\project\pico\sigscope\sigscope-board\ble\picow_bt_if.c
 CMakeFiles\sigscope.dir\ble\picow_bt_if.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/sigscope.dir/ble/picow_bt_if.c.obj"
-	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\ble\picow_bt_if.c.obj -MF CMakeFiles\sigscope.dir\ble\picow_bt_if.c.obj.d -o CMakeFiles\sigscope.dir\ble\picow_bt_if.c.obj -c D:\project\pico\sigscope\board\ble\picow_bt_if.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/sigscope.dir/ble/picow_bt_if.c.obj"
+	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\ble\picow_bt_if.c.obj -MF CMakeFiles\sigscope.dir\ble\picow_bt_if.c.obj.d -o CMakeFiles\sigscope.dir\ble\picow_bt_if.c.obj -c D:\project\pico\sigscope\sigscope-board\ble\picow_bt_if.c
 
 CMakeFiles\sigscope.dir\ble\picow_bt_if.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sigscope.dir/ble/picow_bt_if.c.i"
-	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\project\pico\sigscope\board\ble\picow_bt_if.c > CMakeFiles\sigscope.dir\ble\picow_bt_if.c.i
+	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\project\pico\sigscope\sigscope-board\ble\picow_bt_if.c > CMakeFiles\sigscope.dir\ble\picow_bt_if.c.i
 
 CMakeFiles\sigscope.dir\ble\picow_bt_if.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sigscope.dir/ble/picow_bt_if.c.s"
-	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\project\pico\sigscope\board\ble\picow_bt_if.c -o CMakeFiles\sigscope.dir\ble\picow_bt_if.c.s
+	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\project\pico\sigscope\sigscope-board\ble\picow_bt_if.c -o CMakeFiles\sigscope.dir\ble\picow_bt_if.c.s
 
 CMakeFiles\sigscope.dir\adc_dma\adc_fft.c.obj: CMakeFiles\sigscope.dir\flags.make
-CMakeFiles\sigscope.dir\adc_dma\adc_fft.c.obj: D:\project\pico\sigscope\board\adc_dma\adc_fft.c
+CMakeFiles\sigscope.dir\adc_dma\adc_fft.c.obj: D:\project\pico\sigscope\sigscope-board\adc_dma\adc_fft.c
 CMakeFiles\sigscope.dir\adc_dma\adc_fft.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/sigscope.dir/adc_dma/adc_fft.c.obj"
-	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\adc_dma\adc_fft.c.obj -MF CMakeFiles\sigscope.dir\adc_dma\adc_fft.c.obj.d -o CMakeFiles\sigscope.dir\adc_dma\adc_fft.c.obj -c D:\project\pico\sigscope\board\adc_dma\adc_fft.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/sigscope.dir/adc_dma/adc_fft.c.obj"
+	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\adc_dma\adc_fft.c.obj -MF CMakeFiles\sigscope.dir\adc_dma\adc_fft.c.obj.d -o CMakeFiles\sigscope.dir\adc_dma\adc_fft.c.obj -c D:\project\pico\sigscope\sigscope-board\adc_dma\adc_fft.c
 
 CMakeFiles\sigscope.dir\adc_dma\adc_fft.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sigscope.dir/adc_dma/adc_fft.c.i"
-	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\project\pico\sigscope\board\adc_dma\adc_fft.c > CMakeFiles\sigscope.dir\adc_dma\adc_fft.c.i
+	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\project\pico\sigscope\sigscope-board\adc_dma\adc_fft.c > CMakeFiles\sigscope.dir\adc_dma\adc_fft.c.i
 
 CMakeFiles\sigscope.dir\adc_dma\adc_fft.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sigscope.dir/adc_dma/adc_fft.c.s"
-	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\project\pico\sigscope\board\adc_dma\adc_fft.c -o CMakeFiles\sigscope.dir\adc_dma\adc_fft.c.s
+	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\project\pico\sigscope\sigscope-board\adc_dma\adc_fft.c -o CMakeFiles\sigscope.dir\adc_dma\adc_fft.c.s
 
 CMakeFiles\sigscope.dir\adc_dma\kiss_fftr.c.obj: CMakeFiles\sigscope.dir\flags.make
-CMakeFiles\sigscope.dir\adc_dma\kiss_fftr.c.obj: D:\project\pico\sigscope\board\adc_dma\kiss_fftr.c
+CMakeFiles\sigscope.dir\adc_dma\kiss_fftr.c.obj: D:\project\pico\sigscope\sigscope-board\adc_dma\kiss_fftr.c
 CMakeFiles\sigscope.dir\adc_dma\kiss_fftr.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/sigscope.dir/adc_dma/kiss_fftr.c.obj"
-	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\adc_dma\kiss_fftr.c.obj -MF CMakeFiles\sigscope.dir\adc_dma\kiss_fftr.c.obj.d -o CMakeFiles\sigscope.dir\adc_dma\kiss_fftr.c.obj -c D:\project\pico\sigscope\board\adc_dma\kiss_fftr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/sigscope.dir/adc_dma/kiss_fftr.c.obj"
+	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\adc_dma\kiss_fftr.c.obj -MF CMakeFiles\sigscope.dir\adc_dma\kiss_fftr.c.obj.d -o CMakeFiles\sigscope.dir\adc_dma\kiss_fftr.c.obj -c D:\project\pico\sigscope\sigscope-board\adc_dma\kiss_fftr.c
 
 CMakeFiles\sigscope.dir\adc_dma\kiss_fftr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sigscope.dir/adc_dma/kiss_fftr.c.i"
-	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\project\pico\sigscope\board\adc_dma\kiss_fftr.c > CMakeFiles\sigscope.dir\adc_dma\kiss_fftr.c.i
+	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\project\pico\sigscope\sigscope-board\adc_dma\kiss_fftr.c > CMakeFiles\sigscope.dir\adc_dma\kiss_fftr.c.i
 
 CMakeFiles\sigscope.dir\adc_dma\kiss_fftr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sigscope.dir/adc_dma/kiss_fftr.c.s"
-	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\project\pico\sigscope\board\adc_dma\kiss_fftr.c -o CMakeFiles\sigscope.dir\adc_dma\kiss_fftr.c.s
+	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\project\pico\sigscope\sigscope-board\adc_dma\kiss_fftr.c -o CMakeFiles\sigscope.dir\adc_dma\kiss_fftr.c.s
 
 CMakeFiles\sigscope.dir\adc_dma\kiss_fft.c.obj: CMakeFiles\sigscope.dir\flags.make
-CMakeFiles\sigscope.dir\adc_dma\kiss_fft.c.obj: D:\project\pico\sigscope\board\adc_dma\kiss_fft.c
+CMakeFiles\sigscope.dir\adc_dma\kiss_fft.c.obj: D:\project\pico\sigscope\sigscope-board\adc_dma\kiss_fft.c
 CMakeFiles\sigscope.dir\adc_dma\kiss_fft.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/sigscope.dir/adc_dma/kiss_fft.c.obj"
-	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\adc_dma\kiss_fft.c.obj -MF CMakeFiles\sigscope.dir\adc_dma\kiss_fft.c.obj.d -o CMakeFiles\sigscope.dir\adc_dma\kiss_fft.c.obj -c D:\project\pico\sigscope\board\adc_dma\kiss_fft.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/sigscope.dir/adc_dma/kiss_fft.c.obj"
+	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\adc_dma\kiss_fft.c.obj -MF CMakeFiles\sigscope.dir\adc_dma\kiss_fft.c.obj.d -o CMakeFiles\sigscope.dir\adc_dma\kiss_fft.c.obj -c D:\project\pico\sigscope\sigscope-board\adc_dma\kiss_fft.c
 
 CMakeFiles\sigscope.dir\adc_dma\kiss_fft.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sigscope.dir/adc_dma/kiss_fft.c.i"
-	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\project\pico\sigscope\board\adc_dma\kiss_fft.c > CMakeFiles\sigscope.dir\adc_dma\kiss_fft.c.i
+	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\project\pico\sigscope\sigscope-board\adc_dma\kiss_fft.c > CMakeFiles\sigscope.dir\adc_dma\kiss_fft.c.i
 
 CMakeFiles\sigscope.dir\adc_dma\kiss_fft.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sigscope.dir/adc_dma/kiss_fft.c.s"
-	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\project\pico\sigscope\board\adc_dma\kiss_fft.c -o CMakeFiles\sigscope.dir\adc_dma\kiss_fft.c.s
+	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\project\pico\sigscope\sigscope-board\adc_dma\kiss_fft.c -o CMakeFiles\sigscope.dir\adc_dma\kiss_fft.c.s
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.i: cmake_force
@@ -159,7 +159,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdlib\stdl
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj: D:\project\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.i: cmake_force
@@ -173,7 +173,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_gpio\gp
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_platform\platform.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_platform\platform.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_platform\platform.c.i: cmake_force
@@ -187,7 +187,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_platform\pl
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj: D:\project\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.i: cmake_force
@@ -201,7 +201,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_claim\c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj: D:\project\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.i: cmake_force
@@ -215,7 +215,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_sync\sy
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj: D:\project\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.i: cmake_force
@@ -228,7 +228,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_irq\irq
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj: D:\project\pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building ASM object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building ASM object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj   -c D:\project\pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.i: cmake_force
@@ -242,7 +242,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_irq\irq
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\sem.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\sem.c.obj: D:\project\pico\pico-sdk\src\common\pico_sync\sem.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\sem.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\sem.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\sem.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\sem.c.obj -c D:\project\pico\pico-sdk\src\common\pico_sync\sem.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\sem.c.i: cmake_force
@@ -256,7 +256,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\sem.c.s: c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\lock_core.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\lock_core.c.obj: D:\project\pico\pico-sdk\src\common\pico_sync\lock_core.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\lock_core.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\lock_core.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\lock_core.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\lock_core.c.obj -c D:\project\pico\pico-sdk\src\common\pico_sync\lock_core.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\lock_core.c.i: cmake_force
@@ -270,7 +270,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\lock_core.
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\mutex.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\mutex.c.obj: D:\project\pico\pico-sdk\src\common\pico_sync\mutex.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\mutex.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\mutex.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\mutex.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\mutex.c.obj -c D:\project\pico\pico-sdk\src\common\pico_sync\mutex.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\mutex.c.i: cmake_force
@@ -284,7 +284,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\mutex.c.s:
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\critical_section.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\critical_section.c.obj: D:\project\pico\pico-sdk\src\common\pico_sync\critical_section.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\critical_section.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\critical_section.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\critical_section.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\critical_section.c.obj -c D:\project\pico\pico-sdk\src\common\pico_sync\critical_section.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\critical_section.c.i: cmake_force
@@ -298,7 +298,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_sync\critical_s
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_time\time.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_time\time.c.obj: D:\project\pico\pico-sdk\src\common\pico_time\time.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_time\time.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/common/pico_time/time.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_time\time.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_time\time.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_time\time.c.obj -c D:\project\pico\pico-sdk\src\common\pico_time\time.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_time\time.c.i: cmake_force
@@ -312,7 +312,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_time\time.c.s: 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj: D:\project\pico\pico-sdk\src\common\pico_time\timeout_helper.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj -c D:\project\pico\pico-sdk\src\common\pico_time\timeout_helper.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_time\timeout_helper.c.i: cmake_force
@@ -326,7 +326,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_time\timeout_he
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj: D:\project\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.i: cmake_force
@@ -340,7 +340,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_timer\t
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_util\datetime.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_util\datetime.c.obj: D:\project\pico\pico-sdk\src\common\pico_util\datetime.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_util\datetime.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_util\datetime.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_util\datetime.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_util\datetime.c.obj -c D:\project\pico\pico-sdk\src\common\pico_util\datetime.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_util\datetime.c.i: cmake_force
@@ -354,7 +354,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_util\datetime.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_util\pheap.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_util\pheap.c.obj: D:\project\pico\pico-sdk\src\common\pico_util\pheap.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_util\pheap.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_util\pheap.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_util\pheap.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_util\pheap.c.obj -c D:\project\pico\pico-sdk\src\common\pico_util\pheap.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_util\pheap.c.i: cmake_force
@@ -368,7 +368,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_util\pheap.c.s:
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_util\queue.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_util\queue.c.obj: D:\project\pico\pico-sdk\src\common\pico_util\queue.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_util\queue.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/common/pico_util/queue.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_util\queue.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_util\queue.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_util\queue.c.obj -c D:\project\pico\pico-sdk\src\common\pico_util\queue.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_util\queue.c.i: cmake_force
@@ -382,7 +382,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\common\pico_util\queue.c.s:
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj: D:\project\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.i: cmake_force
@@ -396,7 +396,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_uart\ua
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj: D:\project\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.i: cmake_force
@@ -410,7 +410,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_clocks\
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: D:\project\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.i: cmake_force
@@ -424,7 +424,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_pll\pll
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj: D:\project\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.i: cmake_force
@@ -438,7 +438,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_vreg\vr
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj: D:\project\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.i: cmake_force
@@ -452,7 +452,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_watchdo
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj: D:\project\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.i: cmake_force
@@ -465,7 +465,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_xosc\xo
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj: D:\project\pico\pico-sdk\src\rp2_common\hardware_divider\divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj   -c D:\project\pico\pico-sdk\src\rp2_common\hardware_divider\divider.S
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_divider\divider.S.i: cmake_force
@@ -479,7 +479,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_divider
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.i: cmake_force
@@ -493,7 +493,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_runtime\run
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_printf\printf.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_printf\printf.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_printf\printf.c.i: cmake_force
@@ -506,7 +506,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_printf\prin
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj   -c D:\project\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.i: cmake_force
@@ -520,7 +520,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_bit_ops\bit
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.i: cmake_force
@@ -533,7 +533,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_bootrom\boo
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_divider\divider.S.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_divider\divider.S.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_divider\divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_divider\divider.S.obj   -c D:\project\pico\pico-sdk\src\rp2_common\pico_divider\divider.S
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_divider\divider.S.i: cmake_force
@@ -546,7 +546,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_divider\div
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj   -c D:\project\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.i: cmake_force
@@ -560,7 +560,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_double\doub
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.i: cmake_force
@@ -574,7 +574,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_double\doub
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_double\double_math.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_double\double_math.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_double\double_math.c.i: cmake_force
@@ -587,7 +587,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_double\doub
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj   -c D:\project\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.i: cmake_force
@@ -600,7 +600,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_double\doub
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj   -c D:\project\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.i: cmake_force
@@ -613,7 +613,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_int64_ops\p
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj   -c D:\project\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.i: cmake_force
@@ -627,7 +627,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_float\float
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.i: cmake_force
@@ -641,7 +641,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_float\float
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_float\float_math.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_float\float_math.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_float\float_math.c.i: cmake_force
@@ -654,7 +654,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_float\float
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj   -c D:\project\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.i: cmake_force
@@ -668,7 +668,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_float\float
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.i: cmake_force
@@ -681,7 +681,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_malloc\pico
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building ASM object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building ASM object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj   -c D:\project\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.i: cmake_force
@@ -694,7 +694,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_mem_ops\mem
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building ASM object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building ASM object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj   -c D:\project\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.i: cmake_force
@@ -708,7 +708,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_standard_li
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.i: cmake_force
@@ -722,7 +722,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_standard_li
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.i: cmake_force
@@ -736,7 +736,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_standard_li
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.i: cmake_force
@@ -750,7 +750,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio\stdio
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.i: cmake_force
@@ -764,7 +764,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\r
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.i: cmake_force
@@ -778,7 +778,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\s
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.i: cmake_force
@@ -792,7 +792,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_stdio_usb\s
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.i: cmake_force
@@ -806,7 +806,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_unique_id\u
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj: D:\project\pico\pico-sdk\src\rp2_common\hardware_flash\flash.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\hardware_flash\flash.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.i: cmake_force
@@ -820,7 +820,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_flash\f
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj: D:\project\pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj -c D:\project\pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.i: cmake_force
@@ -834,7 +834,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\portable\raspbe
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj: D:\project\pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj -c D:\project\pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.i: cmake_force
@@ -848,7 +848,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\portable\raspbe
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj: D:\project\pico\pico-sdk\lib\tinyusb\src\device\usbd.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj -c D:\project\pico\pico-sdk\lib\tinyusb\src\device\usbd.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\device\usbd.c.i: cmake_force
@@ -862,7 +862,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\device\usbd.c.s
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj: D:\project\pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj -c D:\project\pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.i: cmake_force
@@ -876,7 +876,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\device\usbd_con
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj: D:\project\pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj -c D:\project\pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.i: cmake_force
@@ -890,7 +890,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\audio\aud
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj: D:\project\pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj -c D:\project\pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.i: cmake_force
@@ -904,7 +904,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_d
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj: D:\project\pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj -c D:\project\pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.i: cmake_force
@@ -918,7 +918,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_d
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj: D:\project\pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj -c D:\project\pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.i: cmake_force
@@ -932,7 +932,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_r
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj: D:\project\pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj -c D:\project\pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.i: cmake_force
@@ -946,7 +946,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\hid\hid_d
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj: D:\project\pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj -c D:\project\pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.i: cmake_force
@@ -960,7 +960,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\midi\midi
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj: D:\project\pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj -c D:\project\pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.i: cmake_force
@@ -974,7 +974,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\msc\msc_d
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj: D:\project\pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj -c D:\project\pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.i: cmake_force
@@ -988,7 +988,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\net\ecm_r
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj: D:\project\pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj -c D:\project\pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.i: cmake_force
@@ -1002,7 +1002,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\net\ncm_d
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj: D:\project\pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj -c D:\project\pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.i: cmake_force
@@ -1016,7 +1016,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\usbtmc\us
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj: D:\project\pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj -c D:\project\pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.i: cmake_force
@@ -1030,7 +1030,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\vendor\ve
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj: D:\project\pico\pico-sdk\lib\tinyusb\src\class\video\video_device.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj -c D:\project\pico\pico-sdk\lib\tinyusb\src\class\video\video_device.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\video\video_device.c.i: cmake_force
@@ -1044,7 +1044,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\class\video\vid
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\tusb.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\tusb.c.obj: D:\project\pico\pico-sdk\lib\tinyusb\src\tusb.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\tusb.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\tusb.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\tusb.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\tusb.c.obj -c D:\project\pico\pico-sdk\lib\tinyusb\src\tusb.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\tusb.c.i: cmake_force
@@ -1058,7 +1058,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\tusb.c.s: cmake
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj: D:\project\pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj -c D:\project\pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.i: cmake_force
@@ -1072,7 +1072,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\common\tusb_fif
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.i: cmake_force
@@ -1086,7 +1086,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_fix\rp2040_
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_db.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_db.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\ble\att_db.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_db.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/att_db.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/att_db.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_db.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_db.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_db.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\ble\att_db.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_db.c.i: cmake_force
@@ -1100,7 +1100,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_db.c.s:
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_db_util.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_db_util.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\ble\att_db_util.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_db_util.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/att_db_util.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/att_db_util.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_db_util.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_db_util.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_db_util.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\ble\att_db_util.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_db_util.c.i: cmake_force
@@ -1114,7 +1114,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_db_util
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_dispatch.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_dispatch.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\ble\att_dispatch.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_dispatch.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/att_dispatch.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/att_dispatch.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_dispatch.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_dispatch.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_dispatch.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\ble\att_dispatch.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_dispatch.c.i: cmake_force
@@ -1128,7 +1128,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_dispatc
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_server.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_server.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\ble\att_server.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_server.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/att_server.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/att_server.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_server.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_server.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_server.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\ble\att_server.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_server.c.i: cmake_force
@@ -1142,7 +1142,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_server.
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\battery_service_server.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\battery_service_server.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\battery_service_server.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\battery_service_server.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_server.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_server.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\battery_service_server.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\battery_service_server.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\battery_service_server.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\battery_service_server.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\battery_service_server.c.i: cmake_force
@@ -1156,7 +1156,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-servic
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\battery_service_client.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\battery_service_client.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\battery_service_client.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\battery_service_client.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_client.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/gatt-service/battery_service_client.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\battery_service_client.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\battery_service_client.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\battery_service_client.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\battery_service_client.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\battery_service_client.c.i: cmake_force
@@ -1170,7 +1170,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-servic
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\cycling_power_service_server.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\cycling_power_service_server.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\cycling_power_service_server.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\cycling_power_service_server.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_power_service_server.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_power_service_server.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\cycling_power_service_server.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\cycling_power_service_server.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\cycling_power_service_server.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\cycling_power_service_server.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\cycling_power_service_server.c.i: cmake_force
@@ -1184,7 +1184,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-servic
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\cycling_speed_and_cadence_service_server.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\cycling_speed_and_cadence_service_server.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\cycling_speed_and_cadence_service_server.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\cycling_speed_and_cadence_service_server.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/gatt-service/cycling_speed_and_cadence_service_server.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\cycling_speed_and_cadence_service_server.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\cycling_speed_and_cadence_service_server.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\cycling_speed_and_cadence_service_server.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\cycling_speed_and_cadence_service_server.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\cycling_speed_and_cadence_service_server.c.i: cmake_force
@@ -1198,7 +1198,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-servic
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\device_information_service_server.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\device_information_service_server.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\device_information_service_server.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\device_information_service_server.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_server.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_server.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\device_information_service_server.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\device_information_service_server.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\device_information_service_server.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\device_information_service_server.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\device_information_service_server.c.i: cmake_force
@@ -1212,7 +1212,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-servic
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\device_information_service_client.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\device_information_service_client.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\device_information_service_client.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\device_information_service_client.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_client.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/gatt-service/device_information_service_client.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\device_information_service_client.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\device_information_service_client.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\device_information_service_client.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\device_information_service_client.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\device_information_service_client.c.i: cmake_force
@@ -1226,7 +1226,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-servic
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\heart_rate_service_server.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\heart_rate_service_server.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\heart_rate_service_server.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\heart_rate_service_server.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/gatt-service/heart_rate_service_server.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/gatt-service/heart_rate_service_server.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\heart_rate_service_server.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\heart_rate_service_server.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\heart_rate_service_server.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\heart_rate_service_server.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\heart_rate_service_server.c.i: cmake_force
@@ -1240,7 +1240,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-servic
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\hids_client.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\hids_client.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\hids_client.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\hids_client.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/gatt-service/hids_client.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/gatt-service/hids_client.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\hids_client.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\hids_client.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\hids_client.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\hids_client.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\hids_client.c.i: cmake_force
@@ -1254,7 +1254,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-servic
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\hids_device.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\hids_device.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\hids_device.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\hids_device.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/gatt-service/hids_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/gatt-service/hids_device.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\hids_device.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\hids_device.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\hids_device.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\hids_device.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\hids_device.c.i: cmake_force
@@ -1268,7 +1268,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-servic
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\nordic_spp_service_server.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\nordic_spp_service_server.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\nordic_spp_service_server.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\nordic_spp_service_server.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/gatt-service/nordic_spp_service_server.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/gatt-service/nordic_spp_service_server.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\nordic_spp_service_server.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\nordic_spp_service_server.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\nordic_spp_service_server.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\nordic_spp_service_server.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\nordic_spp_service_server.c.i: cmake_force
@@ -1282,7 +1282,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-servic
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\ublox_spp_service_server.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\ublox_spp_service_server.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\ublox_spp_service_server.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\ublox_spp_service_server.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/gatt-service/ublox_spp_service_server.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/gatt-service/ublox_spp_service_server.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\ublox_spp_service_server.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\ublox_spp_service_server.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\ublox_spp_service_server.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\ublox_spp_service_server.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\ublox_spp_service_server.c.i: cmake_force
@@ -1296,7 +1296,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-servic
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\ancs_client.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\ancs_client.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\ancs_client.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\ancs_client.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/gatt-service/ancs_client.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/gatt-service/ancs_client.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\ancs_client.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\ancs_client.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\ancs_client.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\ancs_client.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-service\ancs_client.c.i: cmake_force
@@ -1310,7 +1310,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-servic
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt_client.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt_client.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\ble\gatt_client.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt_client.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/gatt_client.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/gatt_client.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt_client.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt_client.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt_client.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\ble\gatt_client.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt_client.c.i: cmake_force
@@ -1324,7 +1324,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt_client
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\le_device_db_memory.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\le_device_db_memory.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\ble\le_device_db_memory.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\le_device_db_memory.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/le_device_db_memory.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/le_device_db_memory.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\le_device_db_memory.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\le_device_db_memory.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\le_device_db_memory.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\ble\le_device_db_memory.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\le_device_db_memory.c.i: cmake_force
@@ -1338,7 +1338,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\le_device_d
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\le_device_db_tlv.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\le_device_db_tlv.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\ble\le_device_db_tlv.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\le_device_db_tlv.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/le_device_db_tlv.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/le_device_db_tlv.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\le_device_db_tlv.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\le_device_db_tlv.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\le_device_db_tlv.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\ble\le_device_db_tlv.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\le_device_db_tlv.c.i: cmake_force
@@ -1352,7 +1352,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\le_device_d
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\sm.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\sm.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\ble\sm.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\sm.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/sm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ble/sm.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\sm.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\sm.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\sm.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\ble\sm.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\sm.c.i: cmake_force
@@ -1366,7 +1366,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\sm.c.s: cma
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\micro-ecc\uECC.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\micro-ecc\uECC.c.obj: D:\project\pico\pico-sdk\lib\btstack\3rd-party\micro-ecc\uECC.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\micro-ecc\uECC.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/3rd-party/micro-ecc/uECC.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/3rd-party/micro-ecc/uECC.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\micro-ecc\uECC.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\micro-ecc\uECC.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\micro-ecc\uECC.c.obj -c D:\project\pico\pico-sdk\lib\btstack\3rd-party\micro-ecc\uECC.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\micro-ecc\uECC.c.i: cmake_force
@@ -1380,7 +1380,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\micro-ecc
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\rijndael\rijndael.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\rijndael\rijndael.c.obj: D:\project\pico\pico-sdk\lib\btstack\3rd-party\rijndael\rijndael.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\rijndael\rijndael.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/3rd-party/rijndael/rijndael.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/3rd-party/rijndael/rijndael.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\rijndael\rijndael.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\rijndael\rijndael.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\rijndael\rijndael.c.obj -c D:\project\pico\pico-sdk\lib\btstack\3rd-party\rijndael\rijndael.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\rijndael\rijndael.c.i: cmake_force
@@ -1394,7 +1394,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\rijndael\
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\segger-rtt\SEGGER_RTT.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\segger-rtt\SEGGER_RTT.c.obj: D:\project\pico\pico-sdk\lib\btstack\3rd-party\segger-rtt\SEGGER_RTT.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\segger-rtt\SEGGER_RTT.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\segger-rtt\SEGGER_RTT.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\segger-rtt\SEGGER_RTT.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\segger-rtt\SEGGER_RTT.c.obj -c D:\project\pico\pico-sdk\lib\btstack\3rd-party\segger-rtt\SEGGER_RTT.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\segger-rtt\SEGGER_RTT.c.i: cmake_force
@@ -1408,7 +1408,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\segger-rt
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\segger-rtt\SEGGER_RTT_printf.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\segger-rtt\SEGGER_RTT_printf.c.obj: D:\project\pico\pico-sdk\lib\btstack\3rd-party\segger-rtt\SEGGER_RTT_printf.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\segger-rtt\SEGGER_RTT_printf.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT_printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/3rd-party/segger-rtt/SEGGER_RTT_printf.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\segger-rtt\SEGGER_RTT_printf.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\segger-rtt\SEGGER_RTT_printf.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\segger-rtt\SEGGER_RTT_printf.c.obj -c D:\project\pico\pico-sdk\lib\btstack\3rd-party\segger-rtt\SEGGER_RTT_printf.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\segger-rtt\SEGGER_RTT_printf.c.i: cmake_force
@@ -1422,7 +1422,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\segger-rt
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\platform\embedded\btstack_tlv_flash_bank.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\platform\embedded\btstack_tlv_flash_bank.c.obj: D:\project\pico\pico-sdk\lib\btstack\platform\embedded\btstack_tlv_flash_bank.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\platform\embedded\btstack_tlv_flash_bank.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/platform/embedded/btstack_tlv_flash_bank.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/platform/embedded/btstack_tlv_flash_bank.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\platform\embedded\btstack_tlv_flash_bank.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\platform\embedded\btstack_tlv_flash_bank.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\platform\embedded\btstack_tlv_flash_bank.c.obj -c D:\project\pico\pico-sdk\lib\btstack\platform\embedded\btstack_tlv_flash_bank.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\platform\embedded\btstack_tlv_flash_bank.c.i: cmake_force
@@ -1436,7 +1436,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\platform\embedded\b
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\platform\embedded\hci_dump_embedded_stdout.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\platform\embedded\hci_dump_embedded_stdout.c.obj: D:\project\pico\pico-sdk\lib\btstack\platform\embedded\hci_dump_embedded_stdout.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\platform\embedded\hci_dump_embedded_stdout.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/platform/embedded/hci_dump_embedded_stdout.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/platform/embedded/hci_dump_embedded_stdout.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\platform\embedded\hci_dump_embedded_stdout.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\platform\embedded\hci_dump_embedded_stdout.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\platform\embedded\hci_dump_embedded_stdout.c.obj -c D:\project\pico\pico-sdk\lib\btstack\platform\embedded\hci_dump_embedded_stdout.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\platform\embedded\hci_dump_embedded_stdout.c.i: cmake_force
@@ -1450,7 +1450,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\platform\embedded\h
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\platform\embedded\hci_dump_segger_rtt_stdout.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\platform\embedded\hci_dump_segger_rtt_stdout.c.obj: D:\project\pico\pico-sdk\lib\btstack\platform\embedded\hci_dump_segger_rtt_stdout.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\platform\embedded\hci_dump_segger_rtt_stdout.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/platform/embedded/hci_dump_segger_rtt_stdout.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/platform/embedded/hci_dump_segger_rtt_stdout.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\platform\embedded\hci_dump_segger_rtt_stdout.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\platform\embedded\hci_dump_segger_rtt_stdout.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\platform\embedded\hci_dump_segger_rtt_stdout.c.obj -c D:\project\pico\pico-sdk\lib\btstack\platform\embedded\hci_dump_segger_rtt_stdout.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\platform\embedded\hci_dump_segger_rtt_stdout.c.i: cmake_force
@@ -1464,7 +1464,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\platform\embedded\h
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ad_parser.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ad_parser.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\ad_parser.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ad_parser.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ad_parser.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/ad_parser.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ad_parser.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ad_parser.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ad_parser.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\ad_parser.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ad_parser.c.i: cmake_force
@@ -1478,7 +1478,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ad_parser.c.s: 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_audio.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_audio.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\btstack_audio.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_audio.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/btstack_audio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/btstack_audio.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_audio.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_audio.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_audio.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\btstack_audio.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_audio.c.i: cmake_force
@@ -1492,7 +1492,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_audio.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_base64_decoder.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_base64_decoder.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\btstack_base64_decoder.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_base64_decoder.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/btstack_base64_decoder.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/btstack_base64_decoder.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_base64_decoder.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_base64_decoder.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_base64_decoder.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\btstack_base64_decoder.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_base64_decoder.c.i: cmake_force
@@ -1506,7 +1506,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_base64_
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_crypto.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_crypto.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\btstack_crypto.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_crypto.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/btstack_crypto.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/btstack_crypto.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_crypto.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_crypto.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_crypto.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\btstack_crypto.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_crypto.c.i: cmake_force
@@ -1520,7 +1520,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_crypto.
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_hid_parser.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_hid_parser.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\btstack_hid_parser.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_hid_parser.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/btstack_hid_parser.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/btstack_hid_parser.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_hid_parser.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_hid_parser.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_hid_parser.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\btstack_hid_parser.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_hid_parser.c.i: cmake_force
@@ -1534,7 +1534,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_hid_par
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_linked_list.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_linked_list.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\btstack_linked_list.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_linked_list.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/btstack_linked_list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/btstack_linked_list.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_linked_list.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_linked_list.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_linked_list.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\btstack_linked_list.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_linked_list.c.i: cmake_force
@@ -1548,7 +1548,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_linked_
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_memory.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_memory.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\btstack_memory.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_memory.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/btstack_memory.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/btstack_memory.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_memory.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_memory.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_memory.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\btstack_memory.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_memory.c.i: cmake_force
@@ -1562,7 +1562,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_memory.
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_memory_pool.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_memory_pool.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\btstack_memory_pool.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_memory_pool.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/btstack_memory_pool.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/btstack_memory_pool.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_memory_pool.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_memory_pool.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_memory_pool.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\btstack_memory_pool.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_memory_pool.c.i: cmake_force
@@ -1576,7 +1576,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_memory_
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_resample.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_resample.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\btstack_resample.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_resample.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/btstack_resample.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/btstack_resample.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_resample.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_resample.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_resample.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\btstack_resample.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_resample.c.i: cmake_force
@@ -1590,7 +1590,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_resampl
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_ring_buffer.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_ring_buffer.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\btstack_ring_buffer.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_ring_buffer.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/btstack_ring_buffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/btstack_ring_buffer.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_ring_buffer.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_ring_buffer.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_ring_buffer.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\btstack_ring_buffer.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_ring_buffer.c.i: cmake_force
@@ -1604,7 +1604,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_ring_bu
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_run_loop.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_run_loop.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\btstack_run_loop.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_run_loop.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/btstack_run_loop.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/btstack_run_loop.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_run_loop.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_run_loop.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_run_loop.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\btstack_run_loop.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_run_loop.c.i: cmake_force
@@ -1618,7 +1618,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_run_loo
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_run_loop_base.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_run_loop_base.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\btstack_run_loop_base.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_run_loop_base.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/btstack_run_loop_base.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/btstack_run_loop_base.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_run_loop_base.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_run_loop_base.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_run_loop_base.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\btstack_run_loop_base.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_run_loop_base.c.i: cmake_force
@@ -1632,7 +1632,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_run_loo
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_slip.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_slip.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\btstack_slip.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_slip.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/btstack_slip.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/btstack_slip.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_slip.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_slip.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_slip.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\btstack_slip.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_slip.c.i: cmake_force
@@ -1646,7 +1646,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_slip.c.
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_tlv.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_tlv.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\btstack_tlv.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_tlv.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/btstack_tlv.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/btstack_tlv.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_tlv.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_tlv.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_tlv.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\btstack_tlv.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_tlv.c.i: cmake_force
@@ -1660,7 +1660,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_tlv.c.s
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_tlv_none.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_tlv_none.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\btstack_tlv_none.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_tlv_none.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/btstack_tlv_none.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/btstack_tlv_none.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_tlv_none.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_tlv_none.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_tlv_none.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\btstack_tlv_none.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_tlv_none.c.i: cmake_force
@@ -1674,7 +1674,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_tlv_non
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_util.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_util.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\btstack_util.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_util.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/btstack_util.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/btstack_util.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_util.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_util.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_util.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\btstack_util.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_util.c.i: cmake_force
@@ -1688,7 +1688,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\btstack_util.c.
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\hci.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/hci.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/hci.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\hci.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci.c.i: cmake_force
@@ -1702,7 +1702,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci.c.s: cmake_
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci_cmd.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci_cmd.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\hci_cmd.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci_cmd.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/hci_cmd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/hci_cmd.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci_cmd.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci_cmd.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci_cmd.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\hci_cmd.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci_cmd.c.i: cmake_force
@@ -1716,7 +1716,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci_cmd.c.s: cm
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci_dump.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci_dump.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\hci_dump.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci_dump.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/hci_dump.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/hci_dump.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci_dump.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci_dump.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci_dump.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\hci_dump.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci_dump.c.i: cmake_force
@@ -1730,7 +1730,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci_dump.c.s: c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci_event.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci_event.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\hci_event.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci_event.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/hci_event.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/hci_event.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci_event.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci_event.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci_event.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\hci_event.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci_event.c.i: cmake_force
@@ -1744,7 +1744,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\hci_event.c.s: 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\l2cap.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\l2cap.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\l2cap.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\l2cap.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/l2cap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/l2cap.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\l2cap.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\l2cap.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\l2cap.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\l2cap.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\l2cap.c.i: cmake_force
@@ -1758,7 +1758,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\l2cap.c.s: cmak
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\l2cap_signaling.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\l2cap_signaling.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\l2cap_signaling.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\l2cap_signaling.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/l2cap_signaling.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/l2cap_signaling.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\l2cap_signaling.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\l2cap_signaling.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\l2cap_signaling.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\l2cap_signaling.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\l2cap_signaling.c.i: cmake_force
@@ -1772,7 +1772,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\l2cap_signaling
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\mesh\gatt-service\mesh_provisioning_service_server.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\mesh\gatt-service\mesh_provisioning_service_server.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\mesh\gatt-service\mesh_provisioning_service_server.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\mesh\gatt-service\mesh_provisioning_service_server.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_provisioning_service_server.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_provisioning_service_server.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\mesh\gatt-service\mesh_provisioning_service_server.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\mesh\gatt-service\mesh_provisioning_service_server.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\mesh\gatt-service\mesh_provisioning_service_server.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\mesh\gatt-service\mesh_provisioning_service_server.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\mesh\gatt-service\mesh_provisioning_service_server.c.i: cmake_force
@@ -1786,7 +1786,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\mesh\gatt-servi
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\mesh\gatt-service\mesh_proxy_service_server.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\mesh\gatt-service\mesh_proxy_service_server.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\mesh\gatt-service\mesh_proxy_service_server.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\mesh\gatt-service\mesh_proxy_service_server.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_proxy_service_server.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/mesh/gatt-service/mesh_proxy_service_server.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\mesh\gatt-service\mesh_proxy_service_server.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\mesh\gatt-service\mesh_proxy_service_server.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\mesh\gatt-service\mesh_proxy_service_server.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\mesh\gatt-service\mesh_proxy_service_server.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\mesh\gatt-service\mesh_proxy_service_server.c.i: cmake_force
@@ -1800,7 +1800,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\mesh\gatt-servi
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\md5\md5.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\md5\md5.c.obj: D:\project\pico\pico-sdk\lib\btstack\3rd-party\md5\md5.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\md5\md5.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/3rd-party/md5/md5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/3rd-party/md5/md5.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\md5\md5.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\md5\md5.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\md5\md5.c.obj -c D:\project\pico\pico-sdk\lib\btstack\3rd-party\md5\md5.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\md5\md5.c.i: cmake_force
@@ -1814,7 +1814,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\md5\md5.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\yxml\yxml.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\yxml\yxml.c.obj: D:\project\pico\pico-sdk\lib\btstack\3rd-party\yxml\yxml.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\yxml\yxml.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/3rd-party/yxml/yxml.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/3rd-party/yxml/yxml.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\yxml\yxml.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\yxml\yxml.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\yxml\yxml.c.obj -c D:\project\pico\pico-sdk\lib\btstack\3rd-party\yxml\yxml.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\yxml\yxml.c.i: cmake_force
@@ -1828,7 +1828,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\3rd-party\yxml\yxml
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_btstack\btstack_stdin_pico.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_btstack\btstack_stdin_pico.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_btstack\btstack_stdin_pico.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_btstack\btstack_stdin_pico.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_btstack/btstack_stdin_pico.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_btstack/btstack_stdin_pico.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_btstack\btstack_stdin_pico.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_btstack\btstack_stdin_pico.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_btstack\btstack_stdin_pico.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_btstack\btstack_stdin_pico.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_btstack\btstack_stdin_pico.c.i: cmake_force
@@ -1842,7 +1842,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_btstack\bts
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\a2dp.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\a2dp.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\a2dp.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\a2dp.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/a2dp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/a2dp.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\a2dp.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\a2dp.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\a2dp.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\a2dp.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\a2dp.c.i: cmake_force
@@ -1856,7 +1856,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\a2dp.c.
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\a2dp_sink.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\a2dp_sink.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\a2dp_sink.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\a2dp_sink.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/a2dp_sink.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/a2dp_sink.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\a2dp_sink.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\a2dp_sink.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\a2dp_sink.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\a2dp_sink.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\a2dp_sink.c.i: cmake_force
@@ -1870,7 +1870,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\a2dp_si
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\a2dp_source.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\a2dp_source.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\a2dp_source.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\a2dp_source.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/a2dp_source.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/a2dp_source.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\a2dp_source.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\a2dp_source.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\a2dp_source.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\a2dp_source.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\a2dp_source.c.i: cmake_force
@@ -1884,7 +1884,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\a2dp_so
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\avdtp.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/avdtp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/avdtp.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\avdtp.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp.c.i: cmake_force
@@ -1898,7 +1898,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_acceptor.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_acceptor.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_acceptor.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_acceptor.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/avdtp_acceptor.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/avdtp_acceptor.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_acceptor.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_acceptor.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_acceptor.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_acceptor.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_acceptor.c.i: cmake_force
@@ -1912,7 +1912,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_a
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_initiator.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_initiator.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_initiator.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_initiator.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/avdtp_initiator.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/avdtp_initiator.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_initiator.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_initiator.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_initiator.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_initiator.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_initiator.c.i: cmake_force
@@ -1926,7 +1926,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_i
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_sink.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_sink.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_sink.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_sink.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/avdtp_sink.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/avdtp_sink.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_sink.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_sink.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_sink.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_sink.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_sink.c.i: cmake_force
@@ -1940,7 +1940,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_s
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_source.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_source.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_source.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_source.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/avdtp_source.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/avdtp_source.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_source.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_source.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_source.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_source.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_source.c.i: cmake_force
@@ -1954,7 +1954,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_s
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_util.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_util.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_util.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_util.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/avdtp_util.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/avdtp_util.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_util.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_util.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_util.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_util.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_util.c.i: cmake_force
@@ -1968,7 +1968,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avdtp_u
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\avrcp.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/avrcp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/avrcp.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\avrcp.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp.c.i: cmake_force
@@ -1982,7 +1982,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_browsing.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_browsing.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_browsing.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_browsing.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/avrcp_browsing.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/avrcp_browsing.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_browsing.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_browsing.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_browsing.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_browsing.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_browsing.c.i: cmake_force
@@ -1996,7 +1996,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_b
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_browsing_controller.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_browsing_controller.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_browsing_controller.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_browsing_controller.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/avrcp_browsing_controller.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/avrcp_browsing_controller.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_browsing_controller.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_browsing_controller.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_browsing_controller.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_browsing_controller.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_browsing_controller.c.i: cmake_force
@@ -2010,7 +2010,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_b
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_browsing_target.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_browsing_target.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_browsing_target.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_browsing_target.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/avrcp_browsing_target.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/avrcp_browsing_target.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_browsing_target.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_browsing_target.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_browsing_target.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_browsing_target.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_browsing_target.c.i: cmake_force
@@ -2024,7 +2024,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_b
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_controller.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_controller.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_controller.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_controller.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/avrcp_controller.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/avrcp_controller.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_controller.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_controller.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_controller.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_controller.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_controller.c.i: cmake_force
@@ -2038,7 +2038,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_cover_art_client.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_cover_art_client.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_cover_art_client.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_cover_art_client.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/avrcp_cover_art_client.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/avrcp_cover_art_client.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_cover_art_client.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_cover_art_client.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_cover_art_client.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_cover_art_client.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_cover_art_client.c.i: cmake_force
@@ -2052,7 +2052,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_media_item_iterator.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_media_item_iterator.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_media_item_iterator.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_media_item_iterator.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/avrcp_media_item_iterator.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/avrcp_media_item_iterator.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_media_item_iterator.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_media_item_iterator.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_media_item_iterator.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_media_item_iterator.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_media_item_iterator.c.i: cmake_force
@@ -2066,7 +2066,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_m
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_target.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_target.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_target.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_target.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/avrcp_target.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/avrcp_target.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_target.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_target.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_target.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_target.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_target.c.i: cmake_force
@@ -2080,7 +2080,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_t
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\btstack_cvsd_plc.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\btstack_cvsd_plc.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\btstack_cvsd_plc.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\btstack_cvsd_plc.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/btstack_cvsd_plc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/btstack_cvsd_plc.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\btstack_cvsd_plc.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\btstack_cvsd_plc.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\btstack_cvsd_plc.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\btstack_cvsd_plc.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\btstack_cvsd_plc.c.i: cmake_force
@@ -2094,7 +2094,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\btstack
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\btstack_link_key_db_tlv.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\btstack_link_key_db_tlv.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\btstack_link_key_db_tlv.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\btstack_link_key_db_tlv.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/btstack_link_key_db_tlv.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/btstack_link_key_db_tlv.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\btstack_link_key_db_tlv.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\btstack_link_key_db_tlv.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\btstack_link_key_db_tlv.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\btstack_link_key_db_tlv.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\btstack_link_key_db_tlv.c.i: cmake_force
@@ -2108,7 +2108,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\btstack
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\btstack_sbc_plc.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\btstack_sbc_plc.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\btstack_sbc_plc.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\btstack_sbc_plc.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/btstack_sbc_plc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/btstack_sbc_plc.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\btstack_sbc_plc.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\btstack_sbc_plc.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\btstack_sbc_plc.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\btstack_sbc_plc.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\btstack_sbc_plc.c.i: cmake_force
@@ -2122,7 +2122,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\btstack
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\device_id_server.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\device_id_server.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\device_id_server.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\device_id_server.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/device_id_server.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/device_id_server.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\device_id_server.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\device_id_server.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\device_id_server.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\device_id_server.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\device_id_server.c.i: cmake_force
@@ -2136,7 +2136,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\device_
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\gatt_sdp.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\gatt_sdp.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\gatt_sdp.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\gatt_sdp.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/gatt_sdp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/gatt_sdp.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\gatt_sdp.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\gatt_sdp.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\gatt_sdp.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\gatt_sdp.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\gatt_sdp.c.i: cmake_force
@@ -2150,7 +2150,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\gatt_sd
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\goep_client.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\goep_client.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\goep_client.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\goep_client.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/goep_client.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/goep_client.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\goep_client.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\goep_client.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\goep_client.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\goep_client.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\goep_client.c.i: cmake_force
@@ -2164,7 +2164,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\goep_cl
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\goep_server.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\goep_server.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\goep_server.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\goep_server.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/goep_server.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/goep_server.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\goep_server.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\goep_server.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\goep_server.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\goep_server.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\goep_server.c.i: cmake_force
@@ -2178,7 +2178,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\goep_se
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\hfp.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/hfp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/hfp.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\hfp.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp.c.i: cmake_force
@@ -2192,7 +2192,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp.c.s
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_ag.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_ag.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\hfp_ag.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_ag.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/hfp_ag.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/hfp_ag.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_ag.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_ag.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_ag.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\hfp_ag.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_ag.c.i: cmake_force
@@ -2206,7 +2206,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_ag.
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_gsm_model.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_gsm_model.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\hfp_gsm_model.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_gsm_model.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/hfp_gsm_model.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/hfp_gsm_model.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_gsm_model.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_gsm_model.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_gsm_model.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\hfp_gsm_model.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_gsm_model.c.i: cmake_force
@@ -2220,7 +2220,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_gsm
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_hf.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_hf.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\hfp_hf.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_hf.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/hfp_hf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/hfp_hf.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_hf.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_hf.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_hf.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\hfp_hf.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_hf.c.i: cmake_force
@@ -2234,7 +2234,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_hf.
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_msbc.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_msbc.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\hfp_msbc.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_msbc.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/hfp_msbc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/hfp_msbc.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_msbc.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_msbc.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_msbc.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\hfp_msbc.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_msbc.c.i: cmake_force
@@ -2248,7 +2248,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hfp_msb
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hid_device.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hid_device.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\hid_device.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hid_device.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/hid_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/hid_device.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hid_device.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hid_device.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hid_device.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\hid_device.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hid_device.c.i: cmake_force
@@ -2262,7 +2262,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hid_dev
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hid_host.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hid_host.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\hid_host.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hid_host.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/hid_host.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/hid_host.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hid_host.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hid_host.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hid_host.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\hid_host.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hid_host.c.i: cmake_force
@@ -2276,7 +2276,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hid_hos
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hsp_ag.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hsp_ag.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\hsp_ag.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hsp_ag.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/hsp_ag.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/hsp_ag.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hsp_ag.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hsp_ag.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hsp_ag.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\hsp_ag.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hsp_ag.c.i: cmake_force
@@ -2290,7 +2290,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hsp_ag.
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hsp_hs.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hsp_hs.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\hsp_hs.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hsp_hs.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/hsp_hs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/hsp_hs.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hsp_hs.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hsp_hs.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hsp_hs.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\hsp_hs.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hsp_hs.c.i: cmake_force
@@ -2304,7 +2304,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\hsp_hs.
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\obex_iterator.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\obex_iterator.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\obex_iterator.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\obex_iterator.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/obex_iterator.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/obex_iterator.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\obex_iterator.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\obex_iterator.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\obex_iterator.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\obex_iterator.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\obex_iterator.c.i: cmake_force
@@ -2318,7 +2318,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\obex_it
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\obex_message_builder.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\obex_message_builder.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\obex_message_builder.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\obex_message_builder.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/obex_message_builder.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/obex_message_builder.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\obex_message_builder.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\obex_message_builder.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\obex_message_builder.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\obex_message_builder.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\obex_message_builder.c.i: cmake_force
@@ -2332,7 +2332,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\obex_me
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\obex_parser.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\obex_parser.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\obex_parser.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\obex_parser.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/obex_parser.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/obex_parser.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\obex_parser.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\obex_parser.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\obex_parser.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\obex_parser.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\obex_parser.c.i: cmake_force
@@ -2346,7 +2346,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\obex_pa
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\pan.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\pan.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\pan.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\pan.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/pan.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/pan.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\pan.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\pan.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\pan.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\pan.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\pan.c.i: cmake_force
@@ -2360,7 +2360,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\pan.c.s
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\pbap_client.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\pbap_client.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\pbap_client.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\pbap_client.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/pbap_client.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/pbap_client.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\pbap_client.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\pbap_client.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\pbap_client.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\pbap_client.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\pbap_client.c.i: cmake_force
@@ -2374,7 +2374,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\pbap_cl
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\rfcomm.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\rfcomm.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\rfcomm.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\rfcomm.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/rfcomm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/rfcomm.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\rfcomm.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\rfcomm.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\rfcomm.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\rfcomm.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\rfcomm.c.i: cmake_force
@@ -2388,7 +2388,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\rfcomm.
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_client.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_client.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\sdp_client.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_client.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/sdp_client.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/sdp_client.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_client.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_client.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_client.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\sdp_client.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_client.c.i: cmake_force
@@ -2402,7 +2402,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_cli
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_client_rfcomm.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_client_rfcomm.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\sdp_client_rfcomm.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_client_rfcomm.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/sdp_client_rfcomm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/sdp_client_rfcomm.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_client_rfcomm.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_client_rfcomm.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_client_rfcomm.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\sdp_client_rfcomm.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_client_rfcomm.c.i: cmake_force
@@ -2416,7 +2416,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_cli
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_server.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_server.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\sdp_server.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_server.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/sdp_server.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/sdp_server.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_server.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_server.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_server.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\sdp_server.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_server.c.i: cmake_force
@@ -2430,7 +2430,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_ser
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_util.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_util.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\sdp_util.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_util.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/sdp_util.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/sdp_util.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_util.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_util.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_util.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\sdp_util.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_util.c.i: cmake_force
@@ -2444,7 +2444,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\sdp_uti
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\spp_server.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\spp_server.c.obj: D:\project\pico\pico-sdk\lib\btstack\src\classic\spp_server.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\spp_server.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/spp_server.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/btstack/src/classic/spp_server.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\spp_server.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\spp_server.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\spp_server.c.obj -c D:\project\pico\pico-sdk\lib\btstack\src\classic\spp_server.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\spp_server.c.i: cmake_force
@@ -2458,7 +2458,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\spp_ser
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\btstack_cyw43.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\btstack_cyw43.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\btstack_cyw43.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\btstack_cyw43.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_cyw43.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_cyw43.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\btstack_cyw43.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\btstack_cyw43.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\btstack_cyw43.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\btstack_cyw43.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\btstack_cyw43.c.i: cmake_force
@@ -2472,7 +2472,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_drive
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_btstack\btstack_flash_bank.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_btstack\btstack_flash_bank.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_btstack\btstack_flash_bank.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_btstack\btstack_flash_bank.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_btstack/btstack_flash_bank.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_btstack/btstack_flash_bank.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_btstack\btstack_flash_bank.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_btstack\btstack_flash_bank.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_btstack\btstack_flash_bank.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_btstack\btstack_flash_bank.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_btstack\btstack_flash_bank.c.i: cmake_force
@@ -2486,7 +2486,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_btstack\bts
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_flash\flash.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_flash\flash.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_flash\flash.c.i: cmake_force
@@ -2500,7 +2500,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_flash\flash
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_btstack\btstack_run_loop_async_context.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_btstack\btstack_run_loop_async_context.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_btstack\btstack_run_loop_async_context.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_btstack\btstack_run_loop_async_context.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_btstack/btstack_run_loop_async_context.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_btstack/btstack_run_loop_async_context.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_btstack\btstack_run_loop_async_context.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_btstack\btstack_run_loop_async_context.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_btstack\btstack_run_loop_async_context.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_btstack\btstack_run_loop_async_context.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_btstack\btstack_run_loop_async_context.c.i: cmake_force
@@ -2514,7 +2514,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_btstack\bts
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_base.c.i: cmake_force
@@ -2528,7 +2528,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_async_conte
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch.c.i: cmake_force
@@ -2542,7 +2542,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_poll.c.i: cmake_force
@@ -2556,7 +2556,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_threadsafe_background.c.i: cmake_force
@@ -2570,7 +2570,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\cyw43_arch_freertos.c.i: cmake_force
@@ -2584,7 +2584,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_arch\
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.c.i: cmake_force
@@ -2598,7 +2598,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_drive
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c.obj: D:\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c.obj -c D:\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c.i: cmake_force
@@ -2612,7 +2612,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ll.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c.obj: D:\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c.obj -c D:\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_stats.c.i: cmake_force
@@ -2626,7 +2626,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_stat
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c.obj: D:\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c.obj -c D:\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_lwip.c.i: cmake_force
@@ -2640,7 +2640,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_lwip
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c.obj: D:\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c.obj -c D:\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl.c.i: cmake_force
@@ -2654,7 +2654,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\cyw43-driver\src\cyw43_ctrl
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus.c.i: cmake_force
@@ -2668,7 +2668,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_drive
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cybt_shared_bus\cybt_shared_bus_driver.c.i: cmake_force
@@ -2682,7 +2682,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_drive
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj: D:\project\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_pio\pio.c.i: cmake_force
@@ -2696,7 +2696,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_pio\pio
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: D:\project\pico\pico-sdk\src\rp2_common\hardware_dma\dma.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\hardware_dma\dma.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_dma\dma.c.i: cmake_force
@@ -2710,7 +2710,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_dma\dma
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_exception\exception.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_exception\exception.c.obj: D:\project\pico\pico-sdk\src\rp2_common\hardware_exception\exception.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_exception\exception.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_exception\exception.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_exception\exception.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_exception\exception.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\hardware_exception\exception.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_exception\exception.c.i: cmake_force
@@ -2724,7 +2724,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_excepti
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_driver.c.i: cmake_force
@@ -2738,7 +2738,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_drive
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\btstack_hci_transport_cyw43.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\btstack_hci_transport_cyw43.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\btstack_hci_transport_cyw43.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\btstack_hci_transport_cyw43.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_hci_transport_cyw43.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\btstack_hci_transport_cyw43.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\btstack_hci_transport_cyw43.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\btstack_hci_transport_cyw43.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\btstack_hci_transport_cyw43.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\btstack_hci_transport_cyw43.c.i: cmake_force
@@ -2752,7 +2752,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_drive
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\btstack_chipset_cyw43.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\btstack_chipset_cyw43.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\btstack_chipset_cyw43.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\btstack_chipset_cyw43.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/btstack_chipset_cyw43.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\btstack_chipset_cyw43.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\btstack_chipset_cyw43.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\btstack_chipset_cyw43.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\btstack_chipset_cyw43.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\btstack_chipset_cyw43.c.i: cmake_force
@@ -2766,7 +2766,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_drive
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c.obj: D:\project\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_async_context\async_context_threadsafe_background.c.i: cmake_force
@@ -2780,7 +2780,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_async_conte
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: D:\project\pico\pico-sdk\src\rp2_common\hardware_adc\adc.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\hardware_adc\adc.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.i: cmake_force
@@ -2794,7 +2794,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_adc\adc
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: CMakeFiles\sigscope.dir\flags.make
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: D:\project\pico\pico-sdk\src\rp2_common\hardware_spi\spi.c
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: CMakeFiles\sigscope.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj -MF CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj.d -o CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj -c D:\project\pico\pico-sdk\src\rp2_common\hardware_spi\spi.c
 
 CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\hardware_spi\spi.c.i: cmake_force
@@ -3208,13 +3208,13 @@ sigscope.elf: CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\ha
 sigscope.elf: CMakeFiles\sigscope.dir\build.make
 sigscope.elf: pico-sdk\src\rp2_common\boot_stage2\bs2_default_padded_checksummed.S
 sigscope.elf: CMakeFiles\sigscope.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Linking CXX executable sigscope.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Linking CXX executable sigscope.elf"
 	C:\PROGRA~2\ARMGNU~1\13C7F1~1.2RE\bin\AR10B2~1.EXE -mcpu=cortex-m0plus -mthumb -Og -g -Wl,--build-id=none --specs=nosys.specs -Wl,--wrap=sprintf -Wl,--wrap=snprintf -Wl,--wrap=vsnprintf -Wl,--wrap=__clzsi2 -Wl,--wrap=__clzdi2 -Wl,--wrap=__ctzsi2 -Wl,--wrap=__ctzdi2 -Wl,--wrap=__popcountsi2 -Wl,--wrap=__popcountdi2 -Wl,--wrap=__clz -Wl,--wrap=__clzl -Wl,--wrap=__clzll -Wl,--wrap=__aeabi_idiv -Wl,--wrap=__aeabi_idivmod -Wl,--wrap=__aeabi_ldivmod -Wl,--wrap=__aeabi_uidiv -Wl,--wrap=__aeabi_uidivmod -Wl,--wrap=__aeabi_uldivmod -Wl,--wrap=__aeabi_dadd -Wl,--wrap=__aeabi_ddiv -Wl,--wrap=__aeabi_dmul -Wl,--wrap=__aeabi_drsub -Wl,--wrap=__aeabi_dsub -Wl,--wrap=__aeabi_cdcmpeq -Wl,--wrap=__aeabi_cdrcmple -Wl,--wrap=__aeabi_cdcmple -Wl,--wrap=__aeabi_dcmpeq -Wl,--wrap=__aeabi_dcmplt -Wl,--wrap=__aeabi_dcmple -Wl,--wrap=__aeabi_dcmpge -Wl,--wrap=__aeabi_dcmpgt -Wl,--wrap=__aeabi_dcmpun -Wl,--wrap=__aeabi_i2d -Wl,--wrap=__aeabi_l2d -Wl,--wrap=__aeabi_ui2d -Wl,--wrap=__aeabi_ul2d -Wl,--wrap=__aeabi_d2iz -Wl,--wrap=__aeabi_d2lz -Wl,--wrap=__aeabi_d2uiz -Wl,--wrap=__aeabi_d2ulz -Wl,--wrap=__aeabi_d2f -Wl,--wrap=sqrt -Wl,--wrap=cos -Wl,--wrap=sin -Wl,--wrap=tan -Wl,--wrap=atan2 -Wl,--wrap=exp -Wl,--wrap=log -Wl,--wrap=ldexp -Wl,--wrap=copysign -Wl,--wrap=trunc -Wl,--wrap=floor -Wl,--wrap=ceil -Wl,--wrap=round -Wl,--wrap=sincos -Wl,--wrap=asin -Wl,--wrap=acos -Wl,--wrap=atan -Wl,--wrap=sinh -Wl,--wrap=cosh -Wl,--wrap=tanh -Wl,--wrap=asinh -Wl,--wrap=acosh -Wl,--wrap=atanh -Wl,--wrap=exp2 -Wl,--wrap=log2 -Wl,--wrap=exp10 -Wl,--wrap=log10 -Wl,--wrap=pow -Wl,--wrap=powint -Wl,--wrap=hypot -Wl,--wrap=cbrt -Wl,--wrap=fmod -Wl,--wrap=drem -Wl,--wrap=remainder -Wl,--wrap=remquo -Wl,--wrap=expm1 -Wl,--wrap=log1p -Wl,--wrap=fma -Wl,--wrap=__aeabi_lmul -Wl,--wrap=__aeabi_fadd -Wl,--wrap=__aeabi_fdiv -Wl,--wrap=__aeabi_fmul -Wl,--wrap=__aeabi_frsub -Wl,--wrap=__aeabi_fsub -Wl,--wrap=__aeabi_cfcmpeq -Wl,--wrap=__aeabi_cfrcmple -Wl,--wrap=__aeabi_cfcmple -Wl,--wrap=__aeabi_fcmpeq -Wl,--wrap=__aeabi_fcmplt -Wl,--wrap=__aeabi_fcmple -Wl,--wrap=__aeabi_fcmpge -Wl,--wrap=__aeabi_fcmpgt -Wl,--wrap=__aeabi_fcmpun -Wl,--wrap=__aeabi_i2f -Wl,--wrap=__aeabi_l2f -Wl,--wrap=__aeabi_ui2f -Wl,--wrap=__aeabi_ul2f -Wl,--wrap=__aeabi_f2iz -Wl,--wrap=__aeabi_f2lz -Wl,--wrap=__aeabi_f2uiz -Wl,--wrap=__aeabi_f2ulz -Wl,--wrap=__aeabi_f2d -Wl,--wrap=sqrtf -Wl,--wrap=cosf -Wl,--wrap=sinf -Wl,--wrap=tanf -Wl,--wrap=atan2f -Wl,--wrap=expf -Wl,--wrap=logf -Wl,--wrap=ldexpf -Wl,--wrap=copysignf -Wl,--wrap=truncf -Wl,--wrap=floorf -Wl,--wrap=ceilf -Wl,--wrap=roundf -Wl,--wrap=sincosf -Wl,--wrap=asinf -Wl,--wrap=acosf -Wl,--wrap=atanf -Wl,--wrap=sinhf -Wl,--wrap=coshf -Wl,--wrap=tanhf -Wl,--wrap=asinhf -Wl,--wrap=acoshf -Wl,--wrap=atanhf -Wl,--wrap=exp2f -Wl,--wrap=log2f -Wl,--wrap=exp10f -Wl,--wrap=log10f -Wl,--wrap=powf -Wl,--wrap=powintf -Wl,--wrap=hypotf -Wl,--wrap=cbrtf -Wl,--wrap=fmodf -Wl,--wrap=dremf -Wl,--wrap=remainderf -Wl,--wrap=remquof -Wl,--wrap=expm1f -Wl,--wrap=log1pf -Wl,--wrap=fmaf -Wl,--wrap=malloc -Wl,--wrap=calloc -Wl,--wrap=realloc -Wl,--wrap=free -Wl,--wrap=memcpy -Wl,--wrap=memset -Wl,--wrap=__aeabi_memcpy -Wl,--wrap=__aeabi_memset -Wl,--wrap=__aeabi_memcpy4 -Wl,--wrap=__aeabi_memset4 -Wl,--wrap=__aeabi_memcpy8 -Wl,--wrap=__aeabi_memset8 -Wl,-Map=sigscope.elf.map -Wl,--script=D:/project/pico/pico-sdk/src/rp2_common/pico_standard_link/memmap_default.ld -Wl,-z,max-page-size=4096 -Wl,--gc-sections -Wl,--no-warn-rwx-segments -Wl,--wrap=printf -Wl,--wrap=vprintf -Wl,--wrap=puts -Wl,--wrap=putchar -Wl,--wrap=getchar @CMakeFiles\sigscope.dir\objects1.rsp -o sigscope.elf  pico-sdk\src\rp2_common\boot_stage2\bs2_default_padded_checksummed.S
-	echo >nul && "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\bin\arm-none-eabi-objcopy.exe" -Oihex D:/project/pico/sigscope/board/build/sigscope.elf sigscope.hex
-	echo >nul && "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\bin\arm-none-eabi-objcopy.exe" -Obinary D:/project/pico/sigscope/board/build/sigscope.elf sigscope.bin
-	echo >nul && "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\bin\arm-none-eabi-objdump.exe" -h D:/project/pico/sigscope/board/build/sigscope.elf > sigscope.dis
-	echo >nul && "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\bin\arm-none-eabi-objdump.exe" -d D:/project/pico/sigscope/board/build/sigscope.elf >> sigscope.dis
-	elf2uf2\elf2uf2 D:/project/pico/sigscope/board/build/sigscope.elf sigscope.uf2
+	echo >nul && "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\bin\arm-none-eabi-objcopy.exe" -Oihex D:/project/pico/sigscope/sigscope-board/build/sigscope.elf sigscope.hex
+	echo >nul && "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\bin\arm-none-eabi-objcopy.exe" -Obinary D:/project/pico/sigscope/sigscope-board/build/sigscope.elf sigscope.bin
+	echo >nul && "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\bin\arm-none-eabi-objdump.exe" -h D:/project/pico/sigscope/sigscope-board/build/sigscope.elf > sigscope.dis
+	echo >nul && "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\bin\arm-none-eabi-objdump.exe" -d D:/project/pico/sigscope/sigscope-board/build/sigscope.elf >> sigscope.dis
+	elf2uf2\elf2uf2 D:/project/pico/sigscope/sigscope-board/build/sigscope.elf sigscope.uf2
 
 # Rule to build all files generated by this target.
 CMakeFiles\sigscope.dir\build: sigscope.elf
@@ -3225,6 +3225,6 @@ CMakeFiles\sigscope.dir\clean:
 .PHONY : CMakeFiles\sigscope.dir\clean
 
 CMakeFiles\sigscope.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\project\pico\sigscope\board D:\project\pico\sigscope\board D:\project\pico\sigscope\board\build D:\project\pico\sigscope\board\build D:\project\pico\sigscope\board\build\CMakeFiles\sigscope.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\project\pico\sigscope\sigscope-board D:\project\pico\sigscope\sigscope-board D:\project\pico\sigscope\sigscope-board\build D:\project\pico\sigscope\sigscope-board\build D:\project\pico\sigscope\sigscope-board\build\CMakeFiles\sigscope.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles\sigscope.dir\depend
 

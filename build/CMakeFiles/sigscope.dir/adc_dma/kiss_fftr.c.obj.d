@@ -1,7 +1,7 @@
 CMakeFiles\sigscope.dir\adc_dma\kiss_fftr.c.obj: \
- D:\project\pico\sigscope\board\adc_dma\kiss_fftr.c \
- D:\project\pico\sigscope\board\adc_dma\kiss_fftr.h \
- D:\project\pico\sigscope\board\adc_dma\kiss_fft.h \
+ D:\project\pico\sigscope\sigscope-board\adc_dma\kiss_fftr.c \
+ D:\project\pico\sigscope\sigscope-board\adc_dma\kiss_fftr.h \
+ D:\project\pico\sigscope\sigscope-board\adc_dma\kiss_fft.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/stdlib.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/machine/ieeefp.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/_ansi.h \
@@ -27,7 +27,7 @@ CMakeFiles\sigscope.dir\adc_dma\kiss_fftr.c.obj: \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/sys/_locale.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/strings.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/sys/string.h \
- D:\project\pico\sigscope\board\adc_dma\_kiss_fft_guts.h \
+ D:\project\pico\sigscope\sigscope-board\adc_dma\_kiss_fft_guts.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/arm-none-eabi/13.2.1/include/limits.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/arm-none-eabi/13.2.1/include/syslimits.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/limits.h \

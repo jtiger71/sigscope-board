@@ -46,10 +46,10 @@ RM = D:\ProgramFiles\CMake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\project\pico\sigscope\board
+CMAKE_SOURCE_DIR = D:\project\pico\sigscope\sigscope-board
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\project\pico\sigscope\board\build
+CMAKE_BINARY_DIR = D:\project\pico\sigscope\sigscope-board\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -76,18 +76,18 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd D:\project\pico\sigscope\board\build
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\project\pico\sigscope\board\build\CMakeFiles D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\pico_cyw43_driver\\CMakeFiles\progress.marks
+	cd D:\project\pico\sigscope\sigscope-board\build
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\project\pico\sigscope\sigscope-board\build\CMakeFiles D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\pico_cyw43_driver\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\pico_cyw43_driver\all
-	cd D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\project\pico\sigscope\board\build\CMakeFiles 0
+	cd D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\project\pico\sigscope\sigscope-board\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd D:\project\pico\sigscope\board\build
+	cd D:\project\pico\sigscope\sigscope-board\build
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\pico_cyw43_driver\clean
-	cd D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
+	cd D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
 .PHONY : clean
 
 # The main clean target
@@ -96,30 +96,30 @@ clean\fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd D:\project\pico\sigscope\board\build
+	cd D:\project\pico\sigscope\sigscope-board\build
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\pico_cyw43_driver\preinstall
-	cd D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
+	cd D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall\fast:
-	cd D:\project\pico\sigscope\board\build
+	cd D:\project\pico\sigscope\sigscope-board\build
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\pico_cyw43_driver\preinstall
-	cd D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
+	cd D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
 .PHONY : preinstall\fast
 
 # clear depends
 depend:
-	cd D:\project\pico\sigscope\board\build
+	cd D:\project\pico\sigscope\sigscope-board\build
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
-	cd D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
+	cd D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
 .PHONY : depend
 
 # Convenience name for target.
 pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild.dir\rule:
-	cd D:\project\pico\sigscope\board\build
+	cd D:\project\pico\sigscope\sigscope-board\build
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild.dir\rule
-	cd D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
+	cd D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
 .PHONY : pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild.dir\rule
 
 # Convenience name for target.
@@ -128,16 +128,16 @@ PioasmBuild: pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild.di
 
 # fast build rule for target.
 PioasmBuild\fast:
-	cd D:\project\pico\sigscope\board\build
+	cd D:\project\pico\sigscope\sigscope-board\build
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild.dir\build
-	cd D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
+	cd D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
 .PHONY : PioasmBuild\fast
 
 # Convenience name for target.
 pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\rule:
-	cd D:\project\pico\sigscope\board\build
+	cd D:\project\pico\sigscope\sigscope-board\build
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\rule
-	cd D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
+	cd D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
 .PHONY : pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\rule
 
 # Convenience name for target.
@@ -146,9 +146,9 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk\src\rp2_common\pico_cyw43_d
 
 # fast build rule for target.
 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h\fast:
-	cd D:\project\pico\sigscope\board\build
+	cd D:\project\pico\sigscope\sigscope-board\build
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\build
-	cd D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
+	cd D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h\fast
 
 # Help Target
@@ -172,8 +172,8 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd D:\project\pico\sigscope\board\build
+	cd D:\project\pico\sigscope\sigscope-board\build
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
-	cd D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
+	cd D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
 .PHONY : cmake_check_build_system
 

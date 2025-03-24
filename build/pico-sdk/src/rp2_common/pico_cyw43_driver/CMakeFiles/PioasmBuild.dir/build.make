@@ -42,10 +42,10 @@ RM = D:\ProgramFiles\CMake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\project\pico\sigscope\board
+CMAKE_SOURCE_DIR = D:\project\pico\sigscope\sigscope-board
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\project\pico\sigscope\board\build
+CMAKE_BINARY_DIR = D:\project\pico\sigscope\sigscope-board\build
 
 # Utility rule file for PioasmBuild.
 
@@ -56,8 +56,8 @@ include pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild.dir\com
 include pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild.dir\progress.make
 
 pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild: pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild-complete
-	cd D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
-	cd D:\project\pico\sigscope\board\build
+	cd D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
+	cd D:\project\pico\sigscope\sigscope-board\build
 
 pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild-complete: pico-sdk\src\rp2_common\pico_cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-install
 pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild-complete: pico-sdk\src\rp2_common\pico_cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-mkdir
@@ -67,64 +67,64 @@ pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild-complete: pico-
 pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild-complete: pico-sdk\src\rp2_common\pico_cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-configure
 pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild-complete: pico-sdk\src\rp2_common\pico_cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-build
 pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild-complete: pico-sdk\src\rp2_common\pico_cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'PioasmBuild'"
-	cd D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
-	D:\ProgramFiles\CMake\bin\cmake.exe -E make_directory D:/project/pico/sigscope/board/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles
-	D:\ProgramFiles\CMake\bin\cmake.exe -E touch D:/project/pico/sigscope/board/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete
-	D:\ProgramFiles\CMake\bin\cmake.exe -E touch D:/project/pico/sigscope/board/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-done
-	cd D:\project\pico\sigscope\board\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'PioasmBuild'"
+	cd D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
+	D:\ProgramFiles\CMake\bin\cmake.exe -E make_directory D:/project/pico/sigscope/sigscope-board/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles
+	D:\ProgramFiles\CMake\bin\cmake.exe -E touch D:/project/pico/sigscope/sigscope-board/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete
+	D:\ProgramFiles\CMake\bin\cmake.exe -E touch D:/project/pico/sigscope/sigscope-board/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-done
+	cd D:\project\pico\sigscope\sigscope-board\build
 
 pico-sdk\src\rp2_common\pico_cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-build: pico-sdk\src\rp2_common\pico_cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'PioasmBuild'"
-	cd D:\project\pico\sigscope\board\build\pioasm
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'PioasmBuild'"
+	cd D:\project\pico\sigscope\sigscope-board\build\pioasm
 	$(MAKE)
-	cd D:\project\pico\sigscope\board\build
+	cd D:\project\pico\sigscope\sigscope-board\build
 
 pico-sdk\src\rp2_common\pico_cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-configure: pico-sdk\src\rp2_common\pico_cyw43_driver\pioasm\tmp\PioasmBuild-cfgcmd.txt
 pico-sdk\src\rp2_common\pico_cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-configure: pico-sdk\src\rp2_common\pico_cyw43_driver\pioasm\tmp\PioasmBuild-cache-Debug.cmake
 pico-sdk\src\rp2_common\pico_cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-configure: pico-sdk\src\rp2_common\pico_cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'PioasmBuild'"
-	cd D:\project\pico\sigscope\board\build\pioasm
-	D:\ProgramFiles\CMake\bin\cmake.exe -DCMAKE_MAKE_PROGRAM:FILEPATH=nmake "-GNMake Makefiles" -CD:/project/pico/sigscope/board/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-cache-Debug.cmake -S D:/project/pico/pico-sdk/tools/pioasm -B D:/project/pico/sigscope/board/build/pioasm
-	D:\ProgramFiles\CMake\bin\cmake.exe -E touch D:/project/pico/sigscope/board/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
-	cd D:\project\pico\sigscope\board\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'PioasmBuild'"
+	cd D:\project\pico\sigscope\sigscope-board\build\pioasm
+	D:\ProgramFiles\CMake\bin\cmake.exe -DCMAKE_MAKE_PROGRAM:FILEPATH=nmake "-GNMake Makefiles" -CD:/project/pico/sigscope/sigscope-board/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-cache-Debug.cmake -S D:/project/pico/pico-sdk/tools/pioasm -B D:/project/pico/sigscope/sigscope-board/build/pioasm
+	D:\ProgramFiles\CMake\bin\cmake.exe -E touch D:/project/pico/sigscope/sigscope-board/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
+	cd D:\project\pico\sigscope\sigscope-board\build
 
 pico-sdk\src\rp2_common\pico_cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-download: pico-sdk\src\rp2_common\pico_cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-source_dirinfo.txt
 pico-sdk\src\rp2_common\pico_cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-download: pico-sdk\src\rp2_common\pico_cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'PioasmBuild'"
-	cd D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'PioasmBuild'"
+	cd D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
 	D:\ProgramFiles\CMake\bin\cmake.exe -E echo_append
-	D:\ProgramFiles\CMake\bin\cmake.exe -E touch D:/project/pico/sigscope/board/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download
-	cd D:\project\pico\sigscope\board\build
+	D:\ProgramFiles\CMake\bin\cmake.exe -E touch D:/project/pico/sigscope/sigscope-board/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download
+	cd D:\project\pico\sigscope\sigscope-board\build
 
 pico-sdk\src\rp2_common\pico_cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-install: pico-sdk\src\rp2_common\pico_cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'PioasmBuild'"
-	cd D:\project\pico\sigscope\board\build\pioasm
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'PioasmBuild'"
+	cd D:\project\pico\sigscope\sigscope-board\build\pioasm
 	D:\ProgramFiles\CMake\bin\cmake.exe -E echo_append
-	cd D:\project\pico\sigscope\board\build
+	cd D:\project\pico\sigscope\sigscope-board\build
 
 pico-sdk\src\rp2_common\pico_cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'PioasmBuild'"
-	cd D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
-	D:\ProgramFiles\CMake\bin\cmake.exe -Dcfgdir= -P D:/project/pico/sigscope/board/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-mkdirs.cmake
-	D:\ProgramFiles\CMake\bin\cmake.exe -E touch D:/project/pico/sigscope/board/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir
-	cd D:\project\pico\sigscope\board\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'PioasmBuild'"
+	cd D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
+	D:\ProgramFiles\CMake\bin\cmake.exe -Dcfgdir= -P D:/project/pico/sigscope/sigscope-board/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-mkdirs.cmake
+	D:\ProgramFiles\CMake\bin\cmake.exe -E touch D:/project/pico/sigscope/sigscope-board/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir
+	cd D:\project\pico\sigscope\sigscope-board\build
 
 pico-sdk\src\rp2_common\pico_cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-patch: pico-sdk\src\rp2_common\pico_cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-patch-info.txt
 pico-sdk\src\rp2_common\pico_cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-patch: pico-sdk\src\rp2_common\pico_cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'PioasmBuild'"
-	cd D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'PioasmBuild'"
+	cd D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
 	D:\ProgramFiles\CMake\bin\cmake.exe -E echo_append
-	D:\ProgramFiles\CMake\bin\cmake.exe -E touch D:/project/pico/sigscope/board/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch
-	cd D:\project\pico\sigscope\board\build
+	D:\ProgramFiles\CMake\bin\cmake.exe -E touch D:/project/pico/sigscope/sigscope-board/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch
+	cd D:\project\pico\sigscope\sigscope-board\build
 
 pico-sdk\src\rp2_common\pico_cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-update: pico-sdk\src\rp2_common\pico_cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-update-info.txt
 pico-sdk\src\rp2_common\pico_cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-update: pico-sdk\src\rp2_common\pico_cyw43_driver\pioasm\src\PioasmBuild-stamp\PioasmBuild-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'PioasmBuild'"
-	cd D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'PioasmBuild'"
+	cd D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
 	D:\ProgramFiles\CMake\bin\cmake.exe -E echo_append
-	D:\ProgramFiles\CMake\bin\cmake.exe -E touch D:/project/pico/sigscope/board/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update
-	cd D:\project\pico\sigscope\board\build
+	D:\ProgramFiles\CMake\bin\cmake.exe -E touch D:/project/pico/sigscope/sigscope-board/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update
+	cd D:\project\pico\sigscope\sigscope-board\build
 
 PioasmBuild: pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild
 PioasmBuild: pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild-complete
@@ -143,12 +143,12 @@ pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild.dir\build: Pioa
 .PHONY : pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild.dir\build
 
 pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild.dir\clean:
-	cd D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
+	cd D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
 	$(CMAKE_COMMAND) -P CMakeFiles\PioasmBuild.dir\cmake_clean.cmake
-	cd D:\project\pico\sigscope\board\build
+	cd D:\project\pico\sigscope\sigscope-board\build
 .PHONY : pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild.dir\clean
 
 pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\project\pico\sigscope\board D:\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver D:\project\pico\sigscope\board\build D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\pico_cyw43_driver D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\project\pico\sigscope\sigscope-board D:\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver D:\project\pico\sigscope\sigscope-board\build D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\pico_cyw43_driver D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild.dir\depend
 

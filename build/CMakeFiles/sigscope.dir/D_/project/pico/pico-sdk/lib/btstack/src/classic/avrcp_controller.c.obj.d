@@ -25,7 +25,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\avrcp_c
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/inttypes.h \
  D:\project\pico\pico-sdk\lib\btstack\src/classic/avrcp.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_run_loop.h \
- D:\project\pico\sigscope\board/btstack_config.h \
+ D:\project\pico\sigscope\sigscope-board/btstack_config.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_bool.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_linked_list.h \

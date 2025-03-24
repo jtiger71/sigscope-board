@@ -16,7 +16,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-servic
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_linked_list.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_bool.h \
  D:\project\pico\pico-sdk\lib\btstack\src/ble/att_server.h \
- D:\project\pico\sigscope\board/btstack_config.h \
+ D:\project\pico\sigscope\sigscope-board/btstack_config.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_util.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/string.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/_ansi.h \

@@ -34,7 +34,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\gatt-servic
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_defines.h \
  D:\project\pico\pico-sdk\lib\btstack\src/ble/gatt_client.h \
  D:\project\pico\pico-sdk\lib\btstack\src/hci.h \
- D:\project\pico\sigscope\board/btstack_config.h \
+ D:\project\pico\sigscope\sigscope-board/btstack_config.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_chipset.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_control.h \
  D:\project\pico\pico-sdk\lib\btstack\src/hci_cmd.h \

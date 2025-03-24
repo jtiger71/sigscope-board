@@ -11,7 +11,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\platform\embedded\b
  D:\project\pico\pico-sdk\lib\btstack\platform\embedded\btstack_tlv_flash_bank.h \
  D:\project\pico\pico-sdk\lib\btstack\platform\embedded\hal_flash_bank.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_debug.h \
- D:\project\pico\sigscope\board/btstack_config.h \
+ D:\project\pico\sigscope\sigscope-board/btstack_config.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_defines.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_linked_list.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_bool.h \

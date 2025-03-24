@@ -5,18 +5,18 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "D:/project/pico/pico-sdk/tools/elf2uf2"
-  "D:/project/pico/sigscope/board/build/elf2uf2"
-  "D:/project/pico/sigscope/board/build/elf2uf2"
-  "D:/project/pico/sigscope/board/build/elf2uf2/tmp"
-  "D:/project/pico/sigscope/board/build/elf2uf2/src/ELF2UF2Build-stamp"
-  "D:/project/pico/sigscope/board/build/elf2uf2/src"
-  "D:/project/pico/sigscope/board/build/elf2uf2/src/ELF2UF2Build-stamp"
+  "D:/project/pico/sigscope/sigscope-board/build/elf2uf2"
+  "D:/project/pico/sigscope/sigscope-board/build/elf2uf2"
+  "D:/project/pico/sigscope/sigscope-board/build/elf2uf2/tmp"
+  "D:/project/pico/sigscope/sigscope-board/build/elf2uf2/src/ELF2UF2Build-stamp"
+  "D:/project/pico/sigscope/sigscope-board/build/elf2uf2/src"
+  "D:/project/pico/sigscope/sigscope-board/build/elf2uf2/src/ELF2UF2Build-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "D:/project/pico/sigscope/board/build/elf2uf2/src/ELF2UF2Build-stamp/${subDir}")
+    file(MAKE_DIRECTORY "D:/project/pico/sigscope/sigscope-board/build/elf2uf2/src/ELF2UF2Build-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "D:/project/pico/sigscope/board/build/elf2uf2/src/ELF2UF2Build-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "D:/project/pico/sigscope/sigscope-board/build/elf2uf2/src/ELF2UF2Build-stamp${cfgdir}") # cfgdir has leading slash
 endif()

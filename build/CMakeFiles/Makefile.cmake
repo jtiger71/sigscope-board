@@ -217,14 +217,14 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/project/pico/pico-sdk/tools/CMakeLists.txt"
   "D:/project/pico/pico-sdk/tools/FindELF2UF2.cmake"
   "D:/project/pico/pico-sdk/tools/FindPioasm.cmake"
-  "D:/project/pico/sigscope/board/CMakeLists.txt"
+  "D:/project/pico/sigscope/sigscope-board/CMakeLists.txt"
   "CMakeFiles/3.29.0-rc4/CMakeASMCompiler.cmake"
   "CMakeFiles/3.29.0-rc4/CMakeCCompiler.cmake"
   "CMakeFiles/3.29.0-rc4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.29.0-rc4/CMakeSystem.cmake"
   "elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake"
   "pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-mkdirs.cmake"
-  "D:/project/pico/sigscope/board/pico_sdk_import.cmake"
+  "D:/project/pico/sigscope/sigscope-board/pico_sdk_import.cmake"
   )
 
 # The corresponding makefile is:

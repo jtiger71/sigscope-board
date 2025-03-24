@@ -31,7 +31,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\ble\att_db.c.ob
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_linked_list.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_bool.h \
  D:\project\pico\pico-sdk\lib\btstack\src/ble/core.h \
- D:\project\pico\sigscope\board/btstack_config.h \
+ D:\project\pico\sigscope\sigscope-board/btstack_config.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_debug.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_defines.h \
  D:\project\pico\pico-sdk\lib\btstack\src/hci_dump.h \

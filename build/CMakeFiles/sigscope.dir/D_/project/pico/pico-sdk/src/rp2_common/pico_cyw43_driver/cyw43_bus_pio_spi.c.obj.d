@@ -34,9 +34,9 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_drive
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/stdint.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/sys/_intsup.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/sys/_stdint.h \
- D:\project\pico\sigscope\board\build\generated\pico_base/pico/version.h \
+ D:\project\pico\sigscope\sigscope-board\build\generated\pico_base/pico/version.h \
  D:\project\pico\pico-sdk\src\common\pico_base\include/pico/config.h \
- D:\project\pico\sigscope\board\build\generated\pico_base/pico/config_autogen.h \
+ D:\project\pico\sigscope\sigscope-board\build\generated\pico_base/pico/config_autogen.h \
  D:/project/pico/pico-sdk/src/boards/include/boards/pico_w.h \
  D:/project/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  D:\project\pico\pico-sdk\src\rp2_common\pico_platform\include/pico/platform.h \
@@ -67,7 +67,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\src\rp2_common\pico_cyw43_drive
  D:\project\pico\pico-sdk\src\rp2_common\hardware_dma\include/hardware/dma.h \
  D:\project\pico\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/dma.h \
  D:\project\pico\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/dma.h \
- D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\pico_cyw43_driver/cyw43_bus_pio_spi.pio.h \
+ D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\pico_cyw43_driver/cyw43_bus_pio_spi.pio.h \
  D:\project\pico\pico-sdk\lib\cyw43-driver\src/cyw43.h \
  D:\project\pico\pico-sdk\lib\cyw43-driver\src/cyw43_config.h \
  D:\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\include/cyw43_configport.h \

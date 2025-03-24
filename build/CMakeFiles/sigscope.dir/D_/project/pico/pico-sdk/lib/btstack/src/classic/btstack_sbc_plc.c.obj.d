@@ -27,7 +27,7 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\btstack\src\classic\btstack
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/sys/string.h \
  D:\project\pico\pico-sdk\lib\btstack\src\classic\btstack_sbc_plc.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_debug.h \
- D:\project\pico\sigscope\board/btstack_config.h \
+ D:\project\pico\sigscope\sigscope-board/btstack_config.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_defines.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_linked_list.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_bool.h \

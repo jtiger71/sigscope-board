@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/project/pico/sigscope/board/build/pico-sdk/tools/cmake_install.cmake")
-  include("D:/project/pico/sigscope/board/build/pico-sdk/src/cmake_install.cmake")
-  include("D:/project/pico/sigscope/board/build/pico-sdk/docs/cmake_install.cmake")
+  include("D:/project/pico/sigscope/sigscope-board/build/pico-sdk/tools/cmake_install.cmake")
+  include("D:/project/pico/sigscope/sigscope-board/build/pico-sdk/src/cmake_install.cmake")
+  include("D:/project/pico/sigscope/sigscope-board/build/pico-sdk/docs/cmake_install.cmake")
 
 endif()
 

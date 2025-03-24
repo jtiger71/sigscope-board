@@ -42,10 +42,10 @@ RM = D:\ProgramFiles\CMake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\project\pico\sigscope\board
+CMAKE_SOURCE_DIR = D:\project\pico\sigscope\sigscope-board
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\project\pico\sigscope\board\build
+CMAKE_BINARY_DIR = D:\project\pico\sigscope\sigscope-board\build
 
 # Utility rule file for bs2_default_padded_checksummed_asm.
 
@@ -56,20 +56,20 @@ include pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checks
 include pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\progress.make
 
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm: pico-sdk\src\rp2_common\boot_stage2\bs2_default_padded_checksummed.S
-	cd D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\boot_stage2
-	cd D:\project\pico\sigscope\board\build
+	cd D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\boot_stage2
+	cd D:\project\pico\sigscope\sigscope-board\build
 
 pico-sdk\src\rp2_common\boot_stage2\bs2_default_padded_checksummed.S: pico-sdk\src\rp2_common\boot_stage2\bs2_default.bin
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default_padded_checksummed.S"
-	cd D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\boot_stage2
-	C:\Users\versi\AppData\Local\Programs\Python\Python312\python.exe D:/project/pico/pico-sdk/src/rp2_common/boot_stage2/pad_checksum -s 0xffffffff D:/project/pico/sigscope/board/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin D:/project/pico/sigscope/board/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
-	cd D:\project\pico\sigscope\board\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default_padded_checksummed.S"
+	cd D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\boot_stage2
+	C:\Users\versi\AppData\Local\Programs\Python\Python312\python.exe D:/project/pico/pico-sdk/src/rp2_common/boot_stage2/pad_checksum -s 0xffffffff D:/project/pico/sigscope/sigscope-board/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin D:/project/pico/sigscope/sigscope-board/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
+	cd D:\project\pico\sigscope\sigscope-board\build
 
 pico-sdk\src\rp2_common\boot_stage2\bs2_default.bin: pico-sdk\src\rp2_common\boot_stage2\bs2_default.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating bs2_default.bin"
-	cd D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\boot_stage2
-	echo >nul && "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\bin\arm-none-eabi-objcopy.exe" -Obinary D:/project/pico/sigscope/board/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf D:/project/pico/sigscope/board/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
-	cd D:\project\pico\sigscope\board\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating bs2_default.bin"
+	cd D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\boot_stage2
+	echo >nul && "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\bin\arm-none-eabi-objcopy.exe" -Obinary D:/project/pico/sigscope/sigscope-board/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf D:/project/pico/sigscope/sigscope-board/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+	cd D:\project\pico\sigscope\sigscope-board\build
 
 bs2_default_padded_checksummed_asm: pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm
 bs2_default_padded_checksummed_asm: pico-sdk\src\rp2_common\boot_stage2\bs2_default.bin
@@ -82,12 +82,12 @@ pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_as
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\build
 
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\clean:
-	cd D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\boot_stage2
+	cd D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\boot_stage2
 	$(CMAKE_COMMAND) -P CMakeFiles\bs2_default_padded_checksummed_asm.dir\cmake_clean.cmake
-	cd D:\project\pico\sigscope\board\build
+	cd D:\project\pico\sigscope\sigscope-board\build
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\clean
 
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\project\pico\sigscope\board D:\project\pico\pico-sdk\src\rp2_common\boot_stage2 D:\project\pico\sigscope\board\build D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\boot_stage2 D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\project\pico\sigscope\sigscope-board D:\project\pico\pico-sdk\src\rp2_common\boot_stage2 D:\project\pico\sigscope\sigscope-board\build D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\boot_stage2 D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\depend
 

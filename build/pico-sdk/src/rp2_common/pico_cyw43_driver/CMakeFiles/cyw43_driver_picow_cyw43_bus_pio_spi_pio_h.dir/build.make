@@ -42,10 +42,10 @@ RM = D:\ProgramFiles\CMake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\project\pico\sigscope\board
+CMAKE_SOURCE_DIR = D:\project\pico\sigscope\sigscope-board
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\project\pico\sigscope\board\build
+CMAKE_BINARY_DIR = D:\project\pico\sigscope\sigscope-board\build
 
 # Utility rule file for cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.
 
@@ -56,14 +56,14 @@ include pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_
 include pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\progress.make
 
 pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.pio.h
-	cd D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
-	cd D:\project\pico\sigscope\board\build
+	cd D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
+	cd D:\project\pico\sigscope\sigscope-board\build
 
 pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.pio.h: D:\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cyw43_bus_pio_spi.pio.h"
-	cd D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
-	..\..\..\..\pioasm\pioasm.exe -o c-sdk D:/project/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio D:/project/pico/sigscope/board/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
-	cd D:\project\pico\sigscope\board\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating cyw43_bus_pio_spi.pio.h"
+	cd D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
+	..\..\..\..\pioasm\pioasm.exe -o c-sdk D:/project/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio D:/project/pico/sigscope/sigscope-board/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h
+	cd D:\project\pico\sigscope\sigscope-board\build
 
 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: pico-sdk\src\rp2_common\pico_cyw43_driver\cyw43_bus_pio_spi.pio.h
@@ -75,12 +75,12 @@ pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bu
 .PHONY : pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\build
 
 pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\clean:
-	cd D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
+	cd D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\pico_cyw43_driver
 	$(CMAKE_COMMAND) -P CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\cmake_clean.cmake
-	cd D:\project\pico\sigscope\board\build
+	cd D:\project\pico\sigscope\sigscope-board\build
 .PHONY : pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\clean
 
 pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\project\pico\sigscope\board D:\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver D:\project\pico\sigscope\board\build D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\pico_cyw43_driver D:\project\pico\sigscope\board\build\pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\project\pico\sigscope\sigscope-board D:\project\pico\pico-sdk\src\rp2_common\pico_cyw43_driver D:\project\pico\sigscope\sigscope-board\build D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\pico_cyw43_driver D:\project\pico\sigscope\sigscope-board\build\pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\depend
 

@@ -4,7 +4,7 @@
 # compile ASM with C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.2 Rel1/bin/arm-none-eabi-gcc.exe
 ASM_DEFINES = -DPICO_BOARD=\"pico_w\" -DPICO_BUILD=1 -DPICO_NO_HARDWARE=0 -DPICO_ON_DEVICE=1
 
-ASM_INCLUDES = -ID:\project\pico\pico-sdk\src\rp2_common\boot_stage2\asminclude -ID:\project\pico\pico-sdk\src\rp2040\hardware_regs\include -ID:\project\pico\pico-sdk\src\rp2_common\hardware_base\include -ID:\project\pico\pico-sdk\src\common\pico_base\include -ID:\project\pico\sigscope\board\build\generated\pico_base -ID:\project\pico\pico-sdk\src\boards\include -ID:\project\pico\pico-sdk\src\rp2_common\pico_platform\include -ID:\project\pico\pico-sdk\src\rp2_common\boot_stage2\include
+ASM_INCLUDES = -ID:\project\pico\pico-sdk\src\rp2_common\boot_stage2\asminclude -ID:\project\pico\pico-sdk\src\rp2040\hardware_regs\include -ID:\project\pico\pico-sdk\src\rp2_common\hardware_base\include -ID:\project\pico\pico-sdk\src\common\pico_base\include -ID:\project\pico\sigscope\sigscope-board\build\generated\pico_base -ID:\project\pico\pico-sdk\src\boards\include -ID:\project\pico\pico-sdk\src\rp2_common\pico_platform\include -ID:\project\pico\pico-sdk\src\rp2_common\boot_stage2\include
 
 ASM_FLAGS = -mcpu=cortex-m0plus -mthumb -Og -g
 

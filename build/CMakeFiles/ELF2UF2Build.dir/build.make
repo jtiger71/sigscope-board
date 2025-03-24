@@ -42,10 +42,10 @@ RM = D:\ProgramFiles\CMake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\project\pico\sigscope\board
+CMAKE_SOURCE_DIR = D:\project\pico\sigscope\sigscope-board
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\project\pico\sigscope\board\build
+CMAKE_BINARY_DIR = D:\project\pico\sigscope\sigscope-board\build
 
 # Utility rule file for ELF2UF2Build.
 
@@ -65,53 +65,53 @@ CMakeFiles\ELF2UF2Build-complete: elf2uf2\src\ELF2UF2Build-stamp\ELF2UF2Build-pa
 CMakeFiles\ELF2UF2Build-complete: elf2uf2\src\ELF2UF2Build-stamp\ELF2UF2Build-configure
 CMakeFiles\ELF2UF2Build-complete: elf2uf2\src\ELF2UF2Build-stamp\ELF2UF2Build-build
 CMakeFiles\ELF2UF2Build-complete: elf2uf2\src\ELF2UF2Build-stamp\ELF2UF2Build-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'ELF2UF2Build'"
-	D:\ProgramFiles\CMake\bin\cmake.exe -E make_directory D:/project/pico/sigscope/board/build/CMakeFiles
-	D:\ProgramFiles\CMake\bin\cmake.exe -E touch D:/project/pico/sigscope/board/build/CMakeFiles/ELF2UF2Build-complete
-	D:\ProgramFiles\CMake\bin\cmake.exe -E touch D:/project/pico/sigscope/board/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'ELF2UF2Build'"
+	D:\ProgramFiles\CMake\bin\cmake.exe -E make_directory D:/project/pico/sigscope/sigscope-board/build/CMakeFiles
+	D:\ProgramFiles\CMake\bin\cmake.exe -E touch D:/project/pico/sigscope/sigscope-board/build/CMakeFiles/ELF2UF2Build-complete
+	D:\ProgramFiles\CMake\bin\cmake.exe -E touch D:/project/pico/sigscope/sigscope-board/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-done
 
 elf2uf2\src\ELF2UF2Build-stamp\ELF2UF2Build-build: elf2uf2\src\ELF2UF2Build-stamp\ELF2UF2Build-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'ELF2UF2Build'"
-	cd D:\project\pico\sigscope\board\build\elf2uf2
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'ELF2UF2Build'"
+	cd D:\project\pico\sigscope\sigscope-board\build\elf2uf2
 	$(MAKE)
-	cd D:\project\pico\sigscope\board\build
+	cd D:\project\pico\sigscope\sigscope-board\build
 
 elf2uf2\src\ELF2UF2Build-stamp\ELF2UF2Build-configure: elf2uf2\tmp\ELF2UF2Build-cfgcmd.txt
 elf2uf2\src\ELF2UF2Build-stamp\ELF2UF2Build-configure: elf2uf2\src\ELF2UF2Build-stamp\ELF2UF2Build-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'ELF2UF2Build'"
-	cd D:\project\pico\sigscope\board\build\elf2uf2
-	D:\ProgramFiles\CMake\bin\cmake.exe -DCMAKE_MAKE_PROGRAM:FILEPATH=nmake "-GNMake Makefiles" -S D:/project/pico/pico-sdk/tools/elf2uf2 -B D:/project/pico/sigscope/board/build/elf2uf2
-	D:\ProgramFiles\CMake\bin\cmake.exe -E touch D:/project/pico/sigscope/board/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
-	cd D:\project\pico\sigscope\board\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'ELF2UF2Build'"
+	cd D:\project\pico\sigscope\sigscope-board\build\elf2uf2
+	D:\ProgramFiles\CMake\bin\cmake.exe -DCMAKE_MAKE_PROGRAM:FILEPATH=nmake "-GNMake Makefiles" -S D:/project/pico/pico-sdk/tools/elf2uf2 -B D:/project/pico/sigscope/sigscope-board/build/elf2uf2
+	D:\ProgramFiles\CMake\bin\cmake.exe -E touch D:/project/pico/sigscope/sigscope-board/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
+	cd D:\project\pico\sigscope\sigscope-board\build
 
 elf2uf2\src\ELF2UF2Build-stamp\ELF2UF2Build-download: elf2uf2\src\ELF2UF2Build-stamp\ELF2UF2Build-source_dirinfo.txt
 elf2uf2\src\ELF2UF2Build-stamp\ELF2UF2Build-download: elf2uf2\src\ELF2UF2Build-stamp\ELF2UF2Build-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'ELF2UF2Build'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'ELF2UF2Build'"
 	D:\ProgramFiles\CMake\bin\cmake.exe -E echo_append
-	D:\ProgramFiles\CMake\bin\cmake.exe -E touch D:/project/pico/sigscope/board/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
+	D:\ProgramFiles\CMake\bin\cmake.exe -E touch D:/project/pico/sigscope/sigscope-board/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
 
 elf2uf2\src\ELF2UF2Build-stamp\ELF2UF2Build-install: elf2uf2\src\ELF2UF2Build-stamp\ELF2UF2Build-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'ELF2UF2Build'"
-	cd D:\project\pico\sigscope\board\build\elf2uf2
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'ELF2UF2Build'"
+	cd D:\project\pico\sigscope\sigscope-board\build\elf2uf2
 	D:\ProgramFiles\CMake\bin\cmake.exe -E echo_append
-	cd D:\project\pico\sigscope\board\build
+	cd D:\project\pico\sigscope\sigscope-board\build
 
 elf2uf2\src\ELF2UF2Build-stamp\ELF2UF2Build-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'ELF2UF2Build'"
-	D:\ProgramFiles\CMake\bin\cmake.exe -Dcfgdir= -P D:/project/pico/sigscope/board/build/elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake
-	D:\ProgramFiles\CMake\bin\cmake.exe -E touch D:/project/pico/sigscope/board/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'ELF2UF2Build'"
+	D:\ProgramFiles\CMake\bin\cmake.exe -Dcfgdir= -P D:/project/pico/sigscope/sigscope-board/build/elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake
+	D:\ProgramFiles\CMake\bin\cmake.exe -E touch D:/project/pico/sigscope/sigscope-board/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
 
 elf2uf2\src\ELF2UF2Build-stamp\ELF2UF2Build-patch: elf2uf2\src\ELF2UF2Build-stamp\ELF2UF2Build-patch-info.txt
 elf2uf2\src\ELF2UF2Build-stamp\ELF2UF2Build-patch: elf2uf2\src\ELF2UF2Build-stamp\ELF2UF2Build-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'ELF2UF2Build'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'ELF2UF2Build'"
 	D:\ProgramFiles\CMake\bin\cmake.exe -E echo_append
-	D:\ProgramFiles\CMake\bin\cmake.exe -E touch D:/project/pico/sigscope/board/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
+	D:\ProgramFiles\CMake\bin\cmake.exe -E touch D:/project/pico/sigscope/sigscope-board/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
 
 elf2uf2\src\ELF2UF2Build-stamp\ELF2UF2Build-update: elf2uf2\src\ELF2UF2Build-stamp\ELF2UF2Build-update-info.txt
 elf2uf2\src\ELF2UF2Build-stamp\ELF2UF2Build-update: elf2uf2\src\ELF2UF2Build-stamp\ELF2UF2Build-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'ELF2UF2Build'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\project\pico\sigscope\sigscope-board\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'ELF2UF2Build'"
 	D:\ProgramFiles\CMake\bin\cmake.exe -E echo_append
-	D:\ProgramFiles\CMake\bin\cmake.exe -E touch D:/project/pico/sigscope/board/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
+	D:\ProgramFiles\CMake\bin\cmake.exe -E touch D:/project/pico/sigscope/sigscope-board/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
 
 ELF2UF2Build: CMakeFiles\ELF2UF2Build
 ELF2UF2Build: CMakeFiles\ELF2UF2Build-complete
@@ -134,6 +134,6 @@ CMakeFiles\ELF2UF2Build.dir\clean:
 .PHONY : CMakeFiles\ELF2UF2Build.dir\clean
 
 CMakeFiles\ELF2UF2Build.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\project\pico\sigscope\board D:\project\pico\sigscope\board D:\project\pico\sigscope\board\build D:\project\pico\sigscope\board\build D:\project\pico\sigscope\board\build\CMakeFiles\ELF2UF2Build.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\project\pico\sigscope\sigscope-board D:\project\pico\sigscope\sigscope-board D:\project\pico\sigscope\sigscope-board\build D:\project\pico\sigscope\sigscope-board\build D:\project\pico\sigscope\sigscope-board\build\CMakeFiles\ELF2UF2Build.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles\ELF2UF2Build.dir\depend
 

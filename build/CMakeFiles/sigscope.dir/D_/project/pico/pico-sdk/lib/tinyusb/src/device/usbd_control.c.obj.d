@@ -22,9 +22,9 @@ CMakeFiles\sigscope.dir\D_\project\pico\pico-sdk\lib\tinyusb\src\device\usbd_con
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/sys/_intsup.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/sys/_stdint.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
- D:\project\pico\sigscope\board\build\generated\pico_base/pico/version.h \
+ D:\project\pico\sigscope\sigscope-board\build\generated\pico_base/pico/version.h \
  D:\project\pico\pico-sdk\src\common\pico_base\include/pico/config.h \
- D:\project\pico\sigscope\board\build\generated\pico_base/pico/config_autogen.h \
+ D:\project\pico\sigscope\sigscope-board\build\generated\pico_base/pico/config_autogen.h \
  D:/project/pico/pico-sdk/src/boards/include/boards/pico_w.h \
  D:/project/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  D:\project\pico\pico-sdk\src\rp2_common\pico_platform\include/pico/platform.h \

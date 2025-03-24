@@ -8,17 +8,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "D:/project/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S" "D:/project/pico/sigscope/board/build/CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-  "D:/project/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "D:/project/pico/sigscope/board/build/CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
-  "D:/project/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "D:/project/pico/sigscope/board/build/CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
-  "D:/project/pico/pico-sdk/src/rp2_common/pico_divider/divider.S" "D:/project/pico/sigscope/board/build/CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
-  "D:/project/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S" "D:/project/pico/sigscope/board/build/CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
-  "D:/project/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S" "D:/project/pico/sigscope/board/build/CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
-  "D:/project/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S" "D:/project/pico/sigscope/board/build/CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
-  "D:/project/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S" "D:/project/pico/sigscope/board/build/CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
-  "D:/project/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S" "D:/project/pico/sigscope/board/build/CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
-  "D:/project/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "D:/project/pico/sigscope/board/build/CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
-  "D:/project/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S" "D:/project/pico/sigscope/board/build/CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+  "D:/project/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S" "D:/project/pico/sigscope/sigscope-board/build/CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+  "D:/project/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "D:/project/pico/sigscope/sigscope-board/build/CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+  "D:/project/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "D:/project/pico/sigscope/sigscope-board/build/CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+  "D:/project/pico/pico-sdk/src/rp2_common/pico_divider/divider.S" "D:/project/pico/sigscope/sigscope-board/build/CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+  "D:/project/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S" "D:/project/pico/sigscope/sigscope-board/build/CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+  "D:/project/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S" "D:/project/pico/sigscope/sigscope-board/build/CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+  "D:/project/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S" "D:/project/pico/sigscope/sigscope-board/build/CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+  "D:/project/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S" "D:/project/pico/sigscope/sigscope-board/build/CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+  "D:/project/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S" "D:/project/pico/sigscope/sigscope-board/build/CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+  "D:/project/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "D:/project/pico/sigscope/sigscope-board/build/CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+  "D:/project/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S" "D:/project/pico/sigscope/sigscope-board/build/CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
   )
 
 # Preprocessor definitions for this target.
@@ -81,7 +81,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
-  "D:/project/pico/sigscope/board"
+  "D:/project/pico/sigscope/sigscope-board"
   "D:/project/pico/pico-sdk/src/common/pico_stdlib/include"
   "D:/project/pico/pico-sdk/src/rp2_common/hardware_gpio/include"
   "D:/project/pico/pico-sdk/src/common/pico_base/include"
@@ -333,12 +333,12 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/project/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c" "CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" "gcc" "CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d"
   "D:/project/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "D:/project/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" "gcc" "CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
-  "D:/project/pico/sigscope/board/adc_dma/adc_fft.c" "CMakeFiles/sigscope.dir/adc_dma/adc_fft.c.obj" "gcc" "CMakeFiles/sigscope.dir/adc_dma/adc_fft.c.obj.d"
-  "D:/project/pico/sigscope/board/adc_dma/kiss_fft.c" "CMakeFiles/sigscope.dir/adc_dma/kiss_fft.c.obj" "gcc" "CMakeFiles/sigscope.dir/adc_dma/kiss_fft.c.obj.d"
-  "D:/project/pico/sigscope/board/adc_dma/kiss_fftr.c" "CMakeFiles/sigscope.dir/adc_dma/kiss_fftr.c.obj" "gcc" "CMakeFiles/sigscope.dir/adc_dma/kiss_fftr.c.obj.d"
-  "D:/project/pico/sigscope/board/ble/picow_bt_base.c" "CMakeFiles/sigscope.dir/ble/picow_bt_base.c.obj" "gcc" "CMakeFiles/sigscope.dir/ble/picow_bt_base.c.obj.d"
-  "D:/project/pico/sigscope/board/ble/picow_bt_if.c" "CMakeFiles/sigscope.dir/ble/picow_bt_if.c.obj" "gcc" "CMakeFiles/sigscope.dir/ble/picow_bt_if.c.obj.d"
-  "D:/project/pico/sigscope/board/main.c" "CMakeFiles/sigscope.dir/main.c.obj" "gcc" "CMakeFiles/sigscope.dir/main.c.obj.d"
+  "D:/project/pico/sigscope/sigscope-board/adc_dma/adc_fft.c" "CMakeFiles/sigscope.dir/adc_dma/adc_fft.c.obj" "gcc" "CMakeFiles/sigscope.dir/adc_dma/adc_fft.c.obj.d"
+  "D:/project/pico/sigscope/sigscope-board/adc_dma/kiss_fft.c" "CMakeFiles/sigscope.dir/adc_dma/kiss_fft.c.obj" "gcc" "CMakeFiles/sigscope.dir/adc_dma/kiss_fft.c.obj.d"
+  "D:/project/pico/sigscope/sigscope-board/adc_dma/kiss_fftr.c" "CMakeFiles/sigscope.dir/adc_dma/kiss_fftr.c.obj" "gcc" "CMakeFiles/sigscope.dir/adc_dma/kiss_fftr.c.obj.d"
+  "D:/project/pico/sigscope/sigscope-board/ble/picow_bt_base.c" "CMakeFiles/sigscope.dir/ble/picow_bt_base.c.obj" "gcc" "CMakeFiles/sigscope.dir/ble/picow_bt_base.c.obj.d"
+  "D:/project/pico/sigscope/sigscope-board/ble/picow_bt_if.c" "CMakeFiles/sigscope.dir/ble/picow_bt_if.c.obj" "gcc" "CMakeFiles/sigscope.dir/ble/picow_bt_if.c.obj.d"
+  "D:/project/pico/sigscope/sigscope-board/main.c" "CMakeFiles/sigscope.dir/main.c.obj" "gcc" "CMakeFiles/sigscope.dir/main.c.obj.d"
   "D:/project/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/sigscope.dir/D_/project/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   )
 

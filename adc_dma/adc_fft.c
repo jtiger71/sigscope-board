@@ -341,7 +341,20 @@ void run_adc_fft(char *resultBuff, int size)
           char jsonBuf2[1000] = "";
 
           int lengthCh1 = 0, lengthCh2 = 0;
-          short *dataCh1 = genSample(&lengthCh1);
+
+          // short *dataCh1 = genSample(&lengthCh1);
+
+          // lengthCh1 = displaysize - startpoint + 1;
+          // short* dataCh1 = (short *) malloc(sizeof(short)*(lengthCh1));
+          // for (int j = 0, i = startpoint; j <= displaysize; j++, i++) {  
+          //      dataCh1[j] = cap_buf[i];  
+          // }
+
+          lengthCh1 = displaysize + 1;
+          short* dataCh1 = (short *) malloc(sizeof(short)*(lengthCh1));
+          for (int j = 0; j <= displaysize; j++) {  
+               dataCh1[j] = cap_buf[j];  
+          }
 
           buildSignalData(1, dataCh1, lengthCh1, jsonBuf1, sizeof(jsonBuf1));
           snprintf(resultBuff, size, "@@{{%d}}@@{\"signals\":[%s]}",  14 + strlen(jsonBuf1), jsonBuf1);
@@ -389,6 +402,9 @@ int sendData(int ch, short *data, int dataCount) {
 }
 
 
+
+
+
 #define SAMPLE_RATE 8800   // 샘플링 주파수
 #define DURATION 1         // 파형 지속 시간 (초)
 #define GRAPH_WIDTH 80     // 그래프의 너비
@@ -422,6 +438,7 @@ int sinGraph() {
     return 0;
 }
 
+
 short *genSample(int *length) {
      double amplitude = rand()%5 + 1;
      int num_samples_per_cycle = SAMPLE_RATE / FREQUENCY;
@@ -431,12 +448,12 @@ short *genSample(int *length) {
           double t = (double)i / SAMPLE_RATE;
           double value = amplitude * sin(2 * M_PI * FREQUENCY * t);
 
+          value = (i%2 == 0 ? 2 : -2);
           buf[i] = (short) (value*100);
     }
     *length = num_samples_per_cycle;
     return buf;
 }
-
 
 /*
 

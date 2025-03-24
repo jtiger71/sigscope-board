@@ -1,5 +1,5 @@
 CMakeFiles\sigscope.dir\ble\picow_bt_base.c.obj: \
- D:\project\pico\sigscope\board\ble\picow_bt_base.c \
+ D:\project\pico\sigscope\sigscope-board\ble\picow_bt_base.c \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_audio.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/stdint.h \
@@ -32,7 +32,7 @@ CMakeFiles\sigscope.dir\ble\picow_bt_base.c.obj: \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
  D:\project\pico\pico-sdk\lib\btstack\src/ble/gatt_client.h \
  D:\project\pico\pico-sdk\lib\btstack\src/hci.h \
- D:\project\pico\sigscope\board/btstack_config.h \
+ D:\project\pico\sigscope\sigscope-board/btstack_config.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_chipset.h \
  D:\project\pico\pico-sdk\lib\btstack\src/btstack_control.h \
  D:\project\pico\pico-sdk\lib\btstack\src/hci_cmd.h \
@@ -55,9 +55,9 @@ CMakeFiles\sigscope.dir\ble\picow_bt_base.c.obj: \
  D:\project\pico\pico-sdk\src\common\pico_base\include/pico/types.h \
  D:\project\pico\pico-sdk\src\common\pico_base\include/pico/assert.h \
  C:/PROGRA~2/ARMGNU~1/13C7F1~1.2RE/arm-none-eabi/include/assert.h \
- D:\project\pico\sigscope\board\build\generated\pico_base/pico/version.h \
+ D:\project\pico\sigscope\sigscope-board\build\generated\pico_base/pico/version.h \
  D:\project\pico\pico-sdk\src\common\pico_base\include/pico/config.h \
- D:\project\pico\sigscope\board\build\generated\pico_base/pico/config_autogen.h \
+ D:\project\pico\sigscope\sigscope-board\build\generated\pico_base/pico/config_autogen.h \
  D:/project/pico/pico-sdk/src/boards/include/boards/pico_w.h \
  D:/project/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  D:\project\pico\pico-sdk\src\rp2_common\pico_platform\include/pico/platform.h \
